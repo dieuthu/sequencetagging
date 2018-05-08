@@ -1,0 +1,133 @@
+2018-05-07 15:04:44,837:INFO: Initializing tf session
+2018-05-07 15:04:52,093:INFO: Epoch 1 out of 15
+2018-05-07 15:04:57,517:INFO: acc 74.12 - f1 42.11
+2018-05-07 15:04:58,104:INFO: - new best score!
+2018-05-07 15:04:58,104:INFO: Epoch 2 out of 15
+2018-05-07 15:04:59,069:INFO: acc 64.71 - f1 0.00
+2018-05-07 15:04:59,069:INFO: Epoch 3 out of 15
+2018-05-07 15:05:00,044:INFO: acc 64.71 - f1 0.00
+2018-05-07 15:05:00,045:INFO: Epoch 4 out of 15
+2018-05-07 15:05:01,009:INFO: acc 64.71 - f1 0.00
+2018-05-07 15:05:01,009:INFO: - early stopping 3 epochs without improvement
+2018-05-07 15:09:45,218:INFO: Initializing tf session
+2018-05-07 15:09:50,304:INFO: Epoch 1 out of 15
+2018-05-07 15:09:54,441:INFO: acc 72.94 - f1 0.00
+2018-05-07 15:09:55,019:INFO: - new best score!
+2018-05-07 15:09:55,019:INFO: Epoch 2 out of 15
+2018-05-07 15:09:55,629:INFO: acc 64.71 - f1 0.00
+2018-05-07 15:09:56,149:INFO: - new best score!
+2018-05-07 15:09:56,150:INFO: Epoch 3 out of 15
+2018-05-07 15:09:56,849:INFO: acc 64.71 - f1 0.00
+2018-05-07 15:09:57,356:INFO: - new best score!
+2018-05-07 15:09:57,356:INFO: Epoch 4 out of 15
+2018-05-07 15:09:58,243:INFO: acc 64.71 - f1 0.00
+2018-05-07 15:09:58,793:INFO: - new best score!
+2018-05-07 15:09:58,793:INFO: Epoch 5 out of 15
+2018-05-07 15:09:59,706:INFO: acc 64.71 - f1 0.00
+2018-05-07 15:10:00,243:INFO: - new best score!
+2018-05-07 15:10:00,244:INFO: Epoch 6 out of 15
+2018-05-07 15:10:01,108:INFO: acc 64.71 - f1 0.00
+2018-05-07 15:10:01,669:INFO: - new best score!
+2018-05-07 15:10:01,670:INFO: Epoch 7 out of 15
+2018-05-07 15:10:02,521:INFO: acc 64.71 - f1 0.00
+2018-05-07 15:10:03,027:INFO: - new best score!
+2018-05-07 15:10:03,027:INFO: Epoch 8 out of 15
+2018-05-07 15:10:03,928:INFO: acc 69.41 - f1 0.00
+2018-05-07 15:10:04,465:INFO: - new best score!
+2018-05-07 15:10:04,466:INFO: Epoch 9 out of 15
+2018-05-07 15:10:05,368:INFO: acc 69.41 - f1 0.00
+2018-05-07 15:10:05,949:INFO: - new best score!
+2018-05-07 15:10:05,950:INFO: Epoch 10 out of 15
+2018-05-07 15:10:06,850:INFO: acc 69.41 - f1 0.00
+2018-05-07 15:10:07,466:INFO: - new best score!
+2018-05-07 15:10:07,467:INFO: Epoch 11 out of 15
+2018-05-07 15:10:07,952:INFO: acc 74.12 - f1 42.11
+2018-05-07 15:10:08,587:INFO: - new best score!
+2018-05-07 15:10:08,588:INFO: Epoch 12 out of 15
+2018-05-07 15:10:08,832:INFO: acc 74.12 - f1 42.11
+2018-05-07 15:10:09,397:INFO: - new best score!
+2018-05-07 15:10:09,398:INFO: Epoch 13 out of 15
+2018-05-07 15:10:09,638:INFO: acc 74.12 - f1 42.11
+2018-05-07 15:10:10,214:INFO: - new best score!
+2018-05-07 15:10:10,214:INFO: Epoch 14 out of 15
+2018-05-07 15:10:10,358:INFO: acc 78.82 - f1 34.78
+2018-05-07 15:10:10,358:INFO: Epoch 15 out of 15
+2018-05-07 15:10:10,448:INFO: acc 78.82 - f1 34.78
+2018-05-07 15:12:16,911:INFO: Initializing tf session
+2018-05-07 15:12:21,513:INFO: Reloading the latest trained model...
+2018-05-07 15:12:21,515:INFO: Restoring parameters from results/test/model.weights/
+2018-05-07 15:12:21,891:INFO: Testing model over test set
+2018-05-07 15:12:23,076:INFO: acc 74.12 - f1 42.11
+2018-05-07 15:12:23,077:INFO: 
+This is an interactive mode.
+To exit, enter 'exit'.
+You can enter a sentence like
+input> I love Paris
+2018-05-07 15:12:29,214:INFO: I     love   Stuttgart 
+2018-05-07 15:12:29,214:INFO: B-PER I-MISC B-MISC    
+2018-05-07 15:13:19,832:INFO: Initializing tf session
+2018-05-07 15:13:23,863:INFO: Reloading the latest trained model...
+2018-05-07 15:13:23,864:INFO: Restoring parameters from results/test/model.weights/
+2018-05-07 15:13:24,068:INFO: Testing model over test set
+2018-05-07 15:13:25,262:INFO: acc 74.12 - f1 42.11
+2018-05-07 15:13:25,262:INFO: 
+This is an interactive mode.
+To exit, enter 'exit'.
+You can enter a sentence like
+input> I love Paris
+2018-05-07 15:13:29,744:INFO: I     love   Paris  
+2018-05-07 15:13:29,745:INFO: B-PER I-MISC B-MISC 
+2018-05-07 15:14:36,794:INFO:   
+2018-05-07 15:14:36,795:INFO: O 
+2018-05-07 15:14:41,614:INFO: tomorrow is nice 
+2018-05-07 15:14:41,614:INFO: O        O  O    
+2018-05-07 15:14:48,740:INFO: I     love   Stuttgart 
+2018-05-07 15:14:48,741:INFO: B-PER I-MISC B-MISC    
+2018-05-07 15:17:09,901:INFO: Initializing tf session
+2018-05-07 15:17:14,577:INFO: Reloading the latest trained model...
+2018-05-07 15:17:14,578:INFO: Restoring parameters from results/test/model.weights/
+2018-05-07 15:17:14,798:INFO: Testing model over test set
+2018-05-07 15:17:16,320:INFO: acc 74.12 - f1 42.11
+2018-05-07 15:17:16,320:INFO: 
+This is an interactive mode.
+To exit, enter 'exit'.
+You can enter a sentence like
+input> I love Paris
+2018-05-07 15:17:22,212:INFO: I     love   Paris  
+2018-05-07 15:17:22,212:INFO: B-PER I-MISC B-MISC 
+2018-05-07 16:21:09,420:INFO:   
+2018-05-07 16:21:09,421:INFO: O 
+2018-05-07 16:24:59,647:INFO: Initializing tf session
+2018-05-07 16:25:03,877:INFO: Reloading the latest trained model...
+2018-05-07 16:25:03,878:INFO: Restoring parameters from results/test/model.weights/
+2018-05-07 16:25:04,065:INFO: Testing model over test set
+2018-05-07 16:25:05,300:INFO: acc 74.12 - f1 42.11
+2018-05-07 16:25:05,300:INFO: 
+This is an interactive mode.
+To exit, enter 'exit'.
+You can enter a sentence like
+input> I love Paris
+2018-05-07 16:25:33,943:INFO: I     love   Paris  
+2018-05-07 16:25:33,944:INFO: B-PER I-MISC B-MISC 
+2018-05-07 16:26:02,971:INFO: I     love   Stuttgart 
+2018-05-07 16:26:02,972:INFO: B-PER I-MISC B-MISC    
+2018-05-07 16:27:20,593:INFO: I     love   Stuttgart 
+2018-05-07 16:27:20,594:INFO: B-PER I-MISC B-MISC    
+2018-05-07 16:27:23,926:INFO: exit() 
+2018-05-07 16:27:23,926:INFO: O      
+2018-05-07 16:27:36,634:INFO: Initializing tf session
+2018-05-07 16:27:40,591:INFO: Reloading the latest trained model...
+2018-05-07 16:27:40,592:INFO: Restoring parameters from results/test/model.weights/
+2018-05-07 16:27:40,790:INFO: Testing model over test set
+2018-05-07 16:27:41,824:INFO: acc 74.12 - f1 42.11
+2018-05-07 16:27:41,824:INFO: 
+This is an interactive mode.
+To exit, enter 'exit'.
+You can enter a sentence like
+input> I love Paris
+2018-05-07 16:27:44,930:INFO: I     love   Paris  
+2018-05-07 16:27:44,930:INFO: B-PER I-MISC B-MISC 
+2018-05-07 16:32:05,950:INFO: exit() 
+2018-05-07 16:32:05,951:INFO: O      
+2018-05-07 16:32:06,166:INFO:   
+2018-05-07 16:32:06,167:INFO: O 
