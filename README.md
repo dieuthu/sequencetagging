@@ -1,10 +1,7 @@
-# Named Entity Recognition with Tensorflow
+# Sequence tagging
 
 This repo implements a NER model using Tensorflow (LSTM + CRF + chars embeddings).
 
-State-of-the-art performance (F1 score between 90 and 91).
-
-Check the [blog post](https://guillaumegenthial.github.io/sequence-tagging-with-tensorflow.html)
 
 ## Task
 
@@ -109,7 +106,6 @@ train_filename = "data/coNLL/eng/eng.train.iob"
 
 
 
-## License
+## Reference:
 
-This project is licensed under the terms of the apache 2.0 license (as Tensorflow and derivatives). If used for research, citation would be appreciated.
-
+https://github.com/guillaumegenthial/sequence_tagging/
