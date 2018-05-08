@@ -258,12 +258,12 @@ class NERModel(BaseModel):
                 #print('trans_params ', trans_params)
                 #print('Sequence ', viterbi_seq)
                 #print('Score ', viterbi_score)#Use to decide least-uncertainty
-            return viterbi_sequences, sequence_lengths
+            return viterbi_sequences, sequence_lengths, viterbi_score
 
         else:
             labels_pred = self.sess.run(self.labels_pred, feed_dict=fd)
 
-            return labels_pred, sequence_lengths
+            return labels_pred, sequence_lengths, None
 
 
     def run_epoch(self, train, dev, epoch):
@@ -317,10 +317,12 @@ class NERModel(BaseModel):
 
         """
         accs = []
+        l = []
+
         correct_preds, total_correct, total_preds = 0., 0., 0.
         for words, labels in minibatches(test, self.config.batch_size):
-            labels_pred, sequence_lengths = self.predict_batch(words)
-            
+            labels_pred, sequence_lengths, prob = self.predict_batch(words)
+            l.append((words, labels, prob))
             for lab, lab_pred, length in zip(labels, labels_pred,
                                              sequence_lengths):
                 lab      = lab[:length]
@@ -341,7 +343,11 @@ class NERModel(BaseModel):
         f1  = 2 * p * r / (p + r) if correct_preds > 0 else 0
         acc = np.mean(accs)
 
-        return {"acc": 100*acc, "f1": 100*f1}
+        #Sort l to get most/least uncertain
+        l = sorted(l, key=lambda pr: pr[2])
+        
+        #return acc, f1, list of most uncertainty and list of least uncertainty examples
+        return {"acc": 100*acc, "f1": 100*f1, "mu": l[0:self.config.num_query], "lu": l[len(l)-self.config.num_query: len(l)]}
 
 
     def predict(self, words_raw):

@@ -145,5 +145,6 @@ class BaseModel(object):
         self.logger.info("Testing model over test set")
         metrics = self.run_evaluate(test)
         msg = " - ".join(["{} {:04.2f}".format(k, v)
-                for k, v in metrics.items()])
+                for k, v, mu, lu in metrics.items()])
         self.logger.info(msg)
+        return metrics

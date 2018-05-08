@@ -64,7 +64,7 @@ input> I love Paris""")
 
         for key, seq in to_print.items():
             model.logger.info(seq)
-
+    
 
 def main():
     # create instance of config
@@ -81,7 +81,7 @@ def main():
 
     # evaluate and interact
     model.evaluate(test)
-    interactive_shell(model)
+    #interactive_shell(model)
 
 
 if __name__ == "__main__":

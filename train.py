@@ -19,6 +19,8 @@ def main():
     train = CoNLLDataset(config.filename_train, config.processing_word,
                          config.processing_tag, config.max_iter)
 
+    # call active learning here!
+    
     # train model
     model.train(train, dev)
 

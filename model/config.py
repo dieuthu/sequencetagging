@@ -102,3 +102,7 @@ class Config():
     # NOTE: if both chars and crf, only 1.6x slower on GPU
     use_crf = True # if crf, training is 1.7x slower on CPU
     use_chars = True # if char embedding, training is 3.5x slower on CPU
+    
+    
+    #Active learning config
+    num_query = 160 #number of queries each round of active learning
