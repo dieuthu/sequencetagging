@@ -72,7 +72,7 @@ class Config():
 
     # dataset
     filename_dev = "data/trde/trde.dev"
-    filename_test = "data/trde/trde.test2"
+    filename_test = "data/trde/trde.test"
     filename_train = "data/trde/trde.train"
 
     #filename_dev = filename_test = filename_train = "data/test.txt" # test
