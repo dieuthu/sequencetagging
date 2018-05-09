@@ -3,8 +3,15 @@ from model.ner_model import NERModel
 from model.config import Config
 import itertools
 import tensorflow as tf
+from random import shuffle
+#import gc
+import pickle
 
-al = "random"
+al = "lu" #most uncertainty (mu) vs. random (rand)
+config = Config()
+#model = NERModel(config)
+#model.build()
+
 
 def train_active(train, dev, test, select, config):
     """
@@ -13,9 +20,13 @@ def train_active(train, dev, test, select, config):
     Select Most & Least Certain Examples from Select set
     """
     # build model
-    tf.reset_default_graph()
+    #tf.reset_default_graph()
+    #gc.collect()    
+    #tf.get_variable_scope().reuse_variables()
     model = NERModel(config)
     model.build()
+    print("Start training model...")
+    print("Training size ", len(train))
     model.train(train, dev)
 
     # restore session
@@ -38,57 +49,57 @@ def train_active(train, dev, test, select, config):
     return l#most uncertain and least uncertain
     
 
-def main():
+def main(i):
+    #Call in an iterator
     # create instance of config
-    config = Config()
-
+    #config = Config()
+    print("********Active training round ", i)
     # Initialize creating dataset
     # create datasets
+    train_round = None
+    select = None
     dev   = CoNLLDataset(config.filename_dev, config.processing_word,
-                         config.processing_tag, config.max_iter) #always keep the same dev and test
-                         
-    train = CoNLLDataset(config.filename_train, config.processing_word,
-                         config.processing_tag, config.max_iter)
+                                 config.processing_tag, config.max_iter) #always keep the same dev and test
 
     test  = CoNLLDataset(config.filename_test, config.processing_word,
+                                 config.processing_tag, config.max_iter)
+
+    if (i==1):
+        train = CoNLLDataset(config.filename_train, config.processing_word,
                          config.processing_tag, config.max_iter)
 
-    # train model with each round
-    train = list(train)
-    train_round = train[0:config.num_query]
-    select = train[config.num_query:len(train)]
-    
-    i = 1
-    while True:
-        if (len(select)>config.num_query):            
-            print("********Active training round ", i)
-            print("Training size ", len(train_round))
-            print("Number of left training samples ",len(select))
-            out = train_active(train_round, dev, test, select, config)
-            #sort select list based on scores
+        train = list(train)
+        train_round = train[0:config.num_query]
+        select = train[config.num_query:len(train)]
+    else:
+        fn = open(config.filename_pkl + str(i),'rb')
+        train_round, select = pickle.load(fn)
+        fn.close()
 
-            if al=='mu':
-                select = [x for _,x in sorted(zip(out,select))] #Sort based on output of selection
-            elif al=='lu':
-                select = [x for _,x in sorted(zip(out,select),reverse=True)]
-            train_round+=select[0:config.num_query]
-            select = select[config.num_query:len(select)]
+    print("Training size ", len(train_round))
+    print("Number of left training samples ",len(select))
+    out = train_active(train_round, dev, test, select, config)
+    #sort select list based on scores
 
-            #train_round = itertools.chain([train_round],out["mu"]) #add MU to train_round           
-            #for sent in out[0]:
-            #    train_round.append(sent[0])
-            #    select = select.remove(sent[0])#Remove MU from select set
-            #select = iter(select)
-            i+=1
-        else:
-            break
-    if len(select)>0:
-        print("Last Active training round ", i)
-        print("Training size ", len(train))
-        print("Number of left training samples ",len(select))
-        out = train_active(train, dev, test, [], config)        
+    if al=='mu':
+        select = [x for _,x in sorted(zip(out,select))] #Sort based on output of selection
+    elif al=='lu':
+        select = [x for _,x in sorted(zip(out,select),reverse=True)]
+    elif al=='rand':
+        shuffle(select)
     
-    
+    num_samples = min(config.num_query,len(select))
+    train_round+=select[0:num_samples]
+    select = select[num_samples:len(select)]
+    shuffle(train_round)
+    shuffle(select)
+    i=i+1
+    fo = open(config.filename_pkl+str(i),'wb')
+    pickle.dump((train_round,select),fo)
+    fo.close()
+
+import sys
 if __name__ == "__main__":
-    main()
+    main(int(sys.argv[1]))
+
 

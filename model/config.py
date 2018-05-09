@@ -71,9 +71,9 @@ class Config():
     use_pretrained = False
 
     # dataset
-    filename_dev = "data/trde/trde.dev"
-    filename_test = "data/trde/trde.test"
-    filename_train = "data/trde/trde.train"
+    filename_dev = "data/trde/archive/trde.dev"
+    filename_test = "data/trde/archive/trde.test"
+    filename_train = "data/trde/archive/trde.train"
 
     #filename_dev = filename_test = filename_train = "data/test.txt" # test
 
@@ -86,8 +86,8 @@ class Config():
 
     # training
     train_embeddings = False
-    nepochs          = 15
-    #nepochs = 5
+    nepochs          = 30
+    #nepochs = 3
     dropout          = 0.5
     batch_size       = 5
     #batch_size = 20
@@ -95,7 +95,7 @@ class Config():
     lr               = 0.001
     lr_decay         = 0.9
     clip             = -1 # if negative, no clipping
-    nepoch_no_imprv  = 3
+    nepoch_no_imprv  = 7
 
     # model hyperparameters
     hidden_size_char = 100 # lstm on chars
@@ -107,4 +107,5 @@ class Config():
     
     
     #Active learning config
-    num_query = 160 #number of queries each round of active learning
+    num_query = 20 #number of queries each round of active learning
+    filename_pkl = "results/trde/intermediate/trainselect"
