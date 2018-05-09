@@ -1,3 +1,4 @@
+import pdb
 import numpy as np
 import os
 import tensorflow as tf
@@ -244,6 +245,7 @@ class NERModel(BaseModel):
         if self.config.use_crf:
             # get tag scores and transition params of CRF
             viterbi_sequences = []
+            scores = []
             logits, trans_params = self.sess.run(
                     [self.logits, self.trans_params], feed_dict=fd)
 
@@ -258,7 +260,8 @@ class NERModel(BaseModel):
                 #print('trans_params ', trans_params)
                 #print('Sequence ', viterbi_seq)
                 #print('Score ', viterbi_score)#Use to decide least-uncertainty
-            return viterbi_sequences, sequence_lengths, viterbi_score
+                scores.append(viterbi_score)
+            return viterbi_sequences, sequence_lengths, scores
 
         else:
             labels_pred = self.sess.run(self.labels_pred, feed_dict=fd)
@@ -281,26 +284,28 @@ class NERModel(BaseModel):
         # progbar stuff for logging
         batch_size = self.config.batch_size
         nbatches = (len(train) + batch_size - 1) // batch_size
-        prog = Progbar(target=nbatches)
+        #prog = Progbar(target=nbatches)
 
         # iterate over dataset
         for i, (words, labels) in enumerate(minibatches(train, batch_size)):
-            print(words, labels)
+            #print(words, labels)
             fd, _ = self.get_feed_dict(words, labels, self.config.lr,
                     self.config.dropout)
 
             _, train_loss, summary = self.sess.run(
                     [self.train_op, self.loss, self.merged], feed_dict=fd)
 
-            prog.update(i + 1, [("train loss", train_loss)])
+            #prog.update(i + 1, [("train loss", train_loss)])
 
             # tensorboard
             if i % 10 == 0:
                 self.file_writer.add_summary(summary, epoch*nbatches + i)
 
         metrics = self.run_evaluate(dev)
-        msg = " - ".join(["{} {:04.2f}".format(k, v)
-                for k, v in metrics.items()])
+        msg = "Accuracy " + str(metrics["acc"]) + " - F1 " + str(metrics["f1"])
+        #msg = " - ".join(["{} {:04.2f}".format(k, v)
+        #        for k, v in metrics.items()])
+        print(msg)
         self.logger.info(msg)
 
         return metrics["f1"]
@@ -321,8 +326,11 @@ class NERModel(BaseModel):
 
         correct_preds, total_correct, total_preds = 0., 0., 0.
         for words, labels in minibatches(test, self.config.batch_size):
+            #print(words,labels)
             labels_pred, sequence_lengths, prob = self.predict_batch(words)
-            l.append((words, labels, prob))
+            #pdb.set_trace()
+            #l.append((list(words),prob)) #list of words, list of scores corresponding
+            #l += prob
             for lab, lab_pred, length in zip(labels, labels_pred,
                                              sequence_lengths):
                 lab      = lab[:length]
@@ -344,10 +352,20 @@ class NERModel(BaseModel):
         acc = np.mean(accs)
 
         #Sort l to get most/least uncertain
-        l = sorted(l, key=lambda pr: pr[2])
-        
+        #l2 = sorted(l)
+        #mu = []
+        #lu = []
+        #for i in range(0,self.config.num_query):
+        #    mu.append(l.index(l2[i]))
+        #    lu.append(l.index(l2[len(l2)-i-1]))
+            
+        #l = sorted(l, key=lambda pr: pr[2])            
+        #pdb.set_trace()
+        #print("l",l)
         #return acc, f1, list of most uncertainty and list of least uncertainty examples
-        return {"acc": 100*acc, "f1": 100*f1, "mu": l[0:self.config.num_query], "lu": l[len(l)-self.config.num_query: len(l)]}
+        #return {"acc": 100*acc, "f1": 100*f1, "out":l}
+        return {"acc": 100*acc, "f1": 100*f1}
+        #return {"acc": 100*acc, "f1": 100*f1, "mu": l[0:self.config.num_query], "lu": l[len(l)-self.config.num_query: len(l)]}
 
 
     def predict(self, words_raw):
@@ -360,12 +378,17 @@ class NERModel(BaseModel):
             preds: list of tags (string), one for each word in the sentence
 
         """
-        words = [self.config.processing_word(w) for w in words_raw]
+        #words = [self.config.processing_word(w) for w in words_raw] #this is used for word raw
+        #print(words)
+        words = words_raw
+        words_o = list(words)
+        #print(words_o)
         if type(words[0]) == tuple:
             words = zip(*words)
-        pred_ids, _ = self.predict_batch([words])
-        print("Prediction: ")
-        print(pred_ids, _)
+        #print(words)
+        pred_ids, _, scores = self.predict_batch([words])
+        #print("Prediction: ")
+        #print(pred_ids, _, scores)
         preds = [self.idx_to_tag[idx] for idx in list(pred_ids[0])]
-
-        return preds
+        return (words_o, scores)
+        #return preds

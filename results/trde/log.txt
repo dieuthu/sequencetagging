@@ -334,3 +334,1300 @@
 2018-05-07 23:14:49,161:INFO: WARNING: randomly initializing word vectors
 2018-05-07 23:14:54,014:INFO: Initializing tf session
 2018-05-07 23:14:58,535:INFO: Epoch 1 out of 15
+2018-05-08 11:57:14,130:INFO: WARNING: randomly initializing word vectors
+2018-05-08 11:57:19,210:INFO: Initializing tf session
+2018-05-08 11:57:23,744:INFO: Reloading the latest trained model...
+2018-05-08 11:57:23,748:INFO: Restoring parameters from results/trde/model.weights/
+2018-05-08 11:57:23,961:INFO: Testing model over test set
+2018-05-08 11:57:25,928:INFO: acc 94.71 - f1 75.07
+2018-05-08 11:57:25,928:INFO: 
+This is an interactive mode.
+To exit, enter 'exit'.
+You can enter a sentence like
+input> I love Paris
+2018-05-08 12:08:04,145:INFO: WARNING: randomly initializing word vectors
+2018-05-08 12:08:09,420:INFO: Initializing tf session
+2018-05-08 12:09:22,103:INFO: WARNING: randomly initializing word vectors
+2018-05-08 12:09:26,362:INFO: Initializing tf session
+2018-05-08 13:41:50,455:INFO: WARNING: randomly initializing word vectors
+2018-05-08 13:41:55,119:INFO: Initializing tf session
+2018-05-08 13:41:59,597:INFO: Epoch 1 out of 15
+2018-05-08 13:46:26,218:INFO: WARNING: randomly initializing word vectors
+2018-05-08 13:46:31,235:INFO: Initializing tf session
+2018-05-08 13:46:36,503:INFO: Epoch 1 out of 15
+2018-05-08 13:46:57,768:INFO: acc 86.71 - f1 47.14
+2018-05-08 13:46:58,534:INFO: - new best score!
+2018-05-08 13:46:58,534:INFO: Epoch 2 out of 15
+2018-05-08 13:47:16,501:INFO: acc 89.81 - f1 55.50
+2018-05-08 13:47:17,210:INFO: - new best score!
+2018-05-08 13:47:17,210:INFO: Epoch 3 out of 15
+2018-05-08 13:47:35,165:INFO: acc 90.81 - f1 62.72
+2018-05-08 13:47:35,856:INFO: - new best score!
+2018-05-08 13:47:35,857:INFO: Epoch 4 out of 15
+2018-05-08 13:47:55,080:INFO: acc 91.68 - f1 65.52
+2018-05-08 13:47:55,715:INFO: - new best score!
+2018-05-08 13:47:55,716:INFO: Epoch 5 out of 15
+2018-05-08 13:48:14,208:INFO: acc 91.06 - f1 64.12
+2018-05-08 13:48:14,209:INFO: Epoch 6 out of 15
+2018-05-08 13:48:32,808:INFO: acc 91.18 - f1 65.11
+2018-05-08 13:48:32,809:INFO: Epoch 7 out of 15
+2018-05-08 13:48:51,347:INFO: acc 91.30 - f1 65.53
+2018-05-08 13:48:51,966:INFO: - new best score!
+2018-05-08 13:48:51,966:INFO: Epoch 8 out of 15
+2018-05-08 13:49:10,688:INFO: acc 91.68 - f1 67.80
+2018-05-08 13:49:11,317:INFO: - new best score!
+2018-05-08 13:49:11,317:INFO: Epoch 9 out of 15
+2018-05-08 13:49:29,765:INFO: acc 91.18 - f1 66.38
+2018-05-08 13:49:29,766:INFO: Epoch 10 out of 15
+2018-05-08 13:49:48,309:INFO: acc 91.43 - f1 67.08
+2018-05-08 13:49:48,310:INFO: Epoch 11 out of 15
+2018-05-08 13:50:06,765:INFO: acc 91.06 - f1 66.67
+2018-05-08 13:50:06,766:INFO: - early stopping 3 epochs without improvement
+2018-05-08 13:58:15,183:INFO: WARNING: randomly initializing word vectors
+2018-05-08 13:58:20,327:INFO: Initializing tf session
+2018-05-08 13:58:25,098:INFO: Reloading the latest trained model...
+2018-05-08 13:58:25,098:INFO: Restoring parameters from results/trde/model.weights/
+2018-05-08 13:58:25,572:INFO: Testing model over test set
+2018-05-08 13:58:27,964:INFO: acc 94.66 - f1 74.62
+2018-05-08 13:58:27,964:INFO: 
+This is an interactive mode.
+To exit, enter 'exit'.
+You can enter a sentence like
+input> I love Paris
+2018-05-08 13:58:46,258:INFO: WARNING: randomly initializing word vectors
+2018-05-08 13:58:50,284:INFO: Initializing tf session
+2018-05-08 13:58:54,790:INFO: Reloading the latest trained model...
+2018-05-08 13:58:54,790:INFO: Restoring parameters from results/trde/model.weights/
+2018-05-08 13:58:55,022:INFO: Testing model over test set
+2018-05-08 13:58:57,338:INFO: acc 94.66 - f1 74.62
+2018-05-08 13:58:57,339:INFO: 
+This is an interactive mode.
+To exit, enter 'exit'.
+You can enter a sentence like
+input> I love Paris
+2018-05-08 13:59:11,359:INFO: WARNING: randomly initializing word vectors
+2018-05-08 13:59:15,209:INFO: Initializing tf session
+2018-05-08 13:59:20,392:INFO: Epoch 1 out of 15
+2018-05-08 13:59:42,210:INFO: acc 87.45 - f1 45.87
+2018-05-08 13:59:42,889:INFO: - new best score!
+2018-05-08 13:59:42,889:INFO: Epoch 2 out of 15
+2018-05-08 14:00:01,608:INFO: acc 89.19 - f1 52.29
+2018-05-08 14:00:02,254:INFO: - new best score!
+2018-05-08 14:00:02,254:INFO: Epoch 3 out of 15
+2018-05-08 14:00:20,882:INFO: acc 90.81 - f1 61.54
+2018-05-08 14:00:21,477:INFO: - new best score!
+2018-05-08 14:00:21,478:INFO: Epoch 4 out of 15
+2018-05-08 14:00:40,143:INFO: acc 91.68 - f1 66.23
+2018-05-08 14:00:40,747:INFO: - new best score!
+2018-05-08 14:00:40,748:INFO: Epoch 5 out of 15
+2018-05-08 14:00:59,306:INFO: acc 91.55 - f1 67.67
+2018-05-08 14:00:59,886:INFO: - new best score!
+2018-05-08 14:00:59,886:INFO: Epoch 6 out of 15
+2018-05-08 14:01:18,498:INFO: acc 91.68 - f1 68.21
+2018-05-08 14:01:19,104:INFO: - new best score!
+2018-05-08 14:01:19,104:INFO: Epoch 7 out of 15
+2018-05-08 14:01:37,692:INFO: acc 91.93 - f1 68.91
+2018-05-08 14:01:38,326:INFO: - new best score!
+2018-05-08 14:01:38,326:INFO: Epoch 8 out of 15
+2018-05-08 14:01:56,918:INFO: acc 91.93 - f1 69.20
+2018-05-08 14:01:57,549:INFO: - new best score!
+2018-05-08 14:01:57,549:INFO: Epoch 9 out of 15
+2018-05-08 14:02:15,924:INFO: acc 91.18 - f1 66.10
+2018-05-08 14:02:15,925:INFO: Epoch 10 out of 15
+2018-05-08 14:02:34,345:INFO: acc 91.55 - f1 68.78
+2018-05-08 14:02:34,346:INFO: Epoch 11 out of 15
+2018-05-08 14:02:53,174:INFO: acc 91.55 - f1 68.35
+2018-05-08 14:02:53,175:INFO: - early stopping 3 epochs without improvement
+2018-05-08 14:08:48,134:INFO: WARNING: randomly initializing word vectors
+2018-05-08 14:08:53,011:INFO: Initializing tf session
+2018-05-08 14:08:56,994:INFO: Reloading the latest trained model...
+2018-05-08 14:08:56,995:INFO: Restoring parameters from results/trde/model.weights/
+2018-05-08 14:08:57,430:INFO: Testing model over test set
+2018-05-08 14:08:59,728:INFO: acc 95.07 - f1 76.69
+2018-05-08 14:08:59,728:INFO: 
+This is an interactive mode.
+To exit, enter 'exit'.
+You can enter a sentence like
+input> I love Paris
+2018-05-08 14:10:46,856:INFO: WARNING: randomly initializing word vectors
+2018-05-08 14:10:51,277:INFO: Initializing tf session
+2018-05-08 14:10:55,785:INFO: Reloading the latest trained model...
+2018-05-08 14:10:55,786:INFO: Restoring parameters from results/trde/model.weights/
+2018-05-08 14:10:56,013:INFO: Testing model over test set
+2018-05-08 14:10:58,290:INFO: acc 95.07 - f1 76.69
+2018-05-08 14:10:58,290:INFO: 
+This is an interactive mode.
+To exit, enter 'exit'.
+You can enter a sentence like
+input> I love Paris
+2018-05-08 14:16:06,252:INFO: exit() 
+2018-05-08 14:16:06,253:INFO: OTHER  
+2018-05-08 14:16:19,123:INFO: WARNING: randomly initializing word vectors
+2018-05-08 14:16:25,217:INFO: Initializing tf session
+2018-05-08 14:16:30,341:INFO: Epoch 1 out of 15
+2018-05-08 14:16:51,737:INFO: acc 87.20 - f1 46.52
+2018-05-08 14:16:52,513:INFO: - new best score!
+2018-05-08 14:16:52,513:INFO: Epoch 2 out of 15
+2018-05-08 14:17:10,892:INFO: acc 89.44 - f1 55.73
+2018-05-08 14:17:11,544:INFO: - new best score!
+2018-05-08 14:17:11,544:INFO: Epoch 3 out of 15
+2018-05-08 14:17:29,712:INFO: acc 90.93 - f1 60.96
+2018-05-08 14:17:30,337:INFO: - new best score!
+2018-05-08 14:17:30,337:INFO: Epoch 4 out of 15
+2018-05-08 14:17:49,309:INFO: acc 91.30 - f1 65.11
+2018-05-08 14:17:49,934:INFO: - new best score!
+2018-05-08 14:17:49,934:INFO: Epoch 5 out of 15
+2018-05-08 14:18:08,506:INFO: acc 90.93 - f1 66.53
+2018-05-08 14:18:09,165:INFO: - new best score!
+2018-05-08 14:18:09,165:INFO: Epoch 6 out of 15
+2018-05-08 14:18:27,639:INFO: acc 91.93 - f1 68.91
+2018-05-08 14:18:28,236:INFO: - new best score!
+2018-05-08 14:18:28,236:INFO: Epoch 7 out of 15
+2018-05-08 14:18:46,679:INFO: acc 91.80 - f1 70.76
+2018-05-08 14:18:47,319:INFO: - new best score!
+2018-05-08 14:18:47,319:INFO: Epoch 8 out of 15
+2018-05-08 14:19:05,772:INFO: acc 91.68 - f1 68.92
+2018-05-08 14:19:05,772:INFO: Epoch 9 out of 15
+2018-05-08 14:19:24,230:INFO: acc 91.30 - f1 69.20
+2018-05-08 14:19:24,231:INFO: Epoch 10 out of 15
+2018-05-08 14:19:42,986:INFO: acc 90.93 - f1 66.95
+2018-05-08 14:19:42,987:INFO: - early stopping 3 epochs without improvement
+2018-05-08 14:21:02,513:INFO: WARNING: randomly initializing word vectors
+2018-05-08 14:21:07,131:INFO: Initializing tf session
+2018-05-08 14:21:11,021:INFO: Reloading the latest trained model...
+2018-05-08 14:21:11,022:INFO: Restoring parameters from results/trde/model.weights/
+2018-05-08 14:21:11,455:INFO: Testing model over test set
+2018-05-08 14:21:13,722:INFO: acc 94.71 - f1 75.37
+2018-05-08 14:21:13,722:INFO: 
+This is an interactive mode.
+To exit, enter 'exit'.
+You can enter a sentence like
+input> I love Paris
+2018-05-08 15:07:53,266:INFO:    
+2018-05-08 15:07:53,267:INFO: TR 
+2018-05-08 15:07:53,360:INFO:    
+2018-05-08 15:07:53,361:INFO: TR 
+2018-05-08 15:07:53,529:INFO:    
+2018-05-08 15:07:53,529:INFO: TR 
+2018-05-08 21:33:54,913:INFO: WARNING: randomly initializing word vectors
+2018-05-08 21:33:59,826:INFO: Initializing tf session
+2018-05-08 21:35:13,594:INFO: WARNING: randomly initializing word vectors
+2018-05-08 21:35:18,833:INFO: Initializing tf session
+2018-05-08 21:35:23,901:INFO: Epoch 1 out of 15
+2018-05-08 21:37:47,065:INFO: WARNING: randomly initializing word vectors
+2018-05-08 21:37:52,418:INFO: Initializing tf session
+2018-05-08 21:37:57,088:INFO: Epoch 1 out of 15
+2018-05-08 21:39:21,078:INFO: WARNING: randomly initializing word vectors
+2018-05-08 21:39:25,412:INFO: Initializing tf session
+2018-05-08 21:39:29,887:INFO: Epoch 1 out of 15
+2018-05-08 21:44:28,660:INFO: WARNING: randomly initializing word vectors
+2018-05-08 21:44:33,500:INFO: Initializing tf session
+2018-05-08 21:44:37,774:INFO: Epoch 1 out of 15
+2018-05-08 21:45:36,900:INFO: WARNING: randomly initializing word vectors
+2018-05-08 21:45:41,258:INFO: Initializing tf session
+2018-05-08 21:45:45,621:INFO: Epoch 1 out of 15
+2018-05-08 21:45:52,718:INFO: Accuracy 60.24844720496895 - F1 11.76470588235294
+2018-05-08 21:45:53,447:INFO: - new best score!
+2018-05-08 21:45:53,447:INFO: Epoch 2 out of 15
+2018-05-08 21:45:57,659:INFO: Accuracy 75.40372670807454 - F1 29.01554404145078
+2018-05-08 21:45:58,302:INFO: - new best score!
+2018-05-08 21:45:58,302:INFO: Epoch 3 out of 15
+2018-05-08 21:46:02,525:INFO: Accuracy 83.22981366459628 - F1 40.24896265560166
+2018-05-08 21:46:03,166:INFO: - new best score!
+2018-05-08 21:46:03,166:INFO: Epoch 4 out of 15
+2018-05-08 21:46:07,307:INFO: Accuracy 85.09316770186336 - F1 40.780911062906725
+2018-05-08 21:46:07,940:INFO: - new best score!
+2018-05-08 21:46:07,940:INFO: Epoch 5 out of 15
+2018-05-08 21:46:12,180:INFO: Accuracy 86.45962732919254 - F1 44.5945945945946
+2018-05-08 21:46:12,825:INFO: - new best score!
+2018-05-08 21:46:12,825:INFO: Epoch 6 out of 15
+2018-05-08 21:46:17,023:INFO: Accuracy 85.83850931677019 - F1 43.13725490196078
+2018-05-08 21:46:17,024:INFO: Epoch 7 out of 15
+2018-05-08 21:46:21,260:INFO: Accuracy 85.71428571428571 - F1 45.702306079664574
+2018-05-08 21:46:21,853:INFO: - new best score!
+2018-05-08 21:46:21,854:INFO: Epoch 8 out of 15
+2018-05-08 21:46:26,158:INFO: Accuracy 86.58385093167702 - F1 46.764091858037574
+2018-05-08 21:46:26,787:INFO: - new best score!
+2018-05-08 21:46:26,787:INFO: Epoch 9 out of 15
+2018-05-08 21:46:31,012:INFO: Accuracy 86.45962732919254 - F1 46.02510460251046
+2018-05-08 21:46:31,016:INFO: Epoch 10 out of 15
+2018-05-08 21:46:35,246:INFO: Accuracy 87.45341614906832 - F1 49.895178197064986
+2018-05-08 21:46:35,909:INFO: - new best score!
+2018-05-08 21:46:35,909:INFO: Epoch 11 out of 15
+2018-05-08 21:46:40,111:INFO: Accuracy 87.5776397515528 - F1 50.42372881355932
+2018-05-08 21:46:40,842:INFO: - new best score!
+2018-05-08 21:46:40,843:INFO: Epoch 12 out of 15
+2018-05-08 21:46:45,084:INFO: Accuracy 87.32919254658385 - F1 49.36708860759494
+2018-05-08 21:46:45,086:INFO: Epoch 13 out of 15
+2018-05-08 21:46:49,255:INFO: Accuracy 87.45341614906832 - F1 49.579831932773104
+2018-05-08 21:46:49,256:INFO: Epoch 14 out of 15
+2018-05-08 21:46:53,500:INFO: Accuracy 87.95031055900621 - F1 52.083333333333336
+2018-05-08 21:46:54,432:INFO: - new best score!
+2018-05-08 21:46:54,432:INFO: Epoch 15 out of 15
+2018-05-08 21:46:58,696:INFO: Accuracy 88.19875776397515 - F1 52.83018867924528
+2018-05-08 21:46:59,666:INFO: - new best score!
+2018-05-08 21:46:59,676:INFO: Reloading the latest trained model...
+2018-05-08 21:46:59,676:INFO: Restoring parameters from results/trde/model.weights/
+2018-05-08 21:47:00,177:INFO: Testing model over test set
+2018-05-08 21:49:40,241:INFO: WARNING: randomly initializing word vectors
+2018-05-08 21:49:45,640:INFO: Initializing tf session
+2018-05-08 21:49:50,744:INFO: Epoch 1 out of 5
+2018-05-08 21:51:31,325:INFO: WARNING: randomly initializing word vectors
+2018-05-08 21:51:36,175:INFO: Initializing tf session
+2018-05-08 21:51:40,777:INFO: Epoch 1 out of 5
+2018-05-08 21:51:47,721:INFO: Accuracy 68.32298136645963 - F1 15.384615384615385
+2018-05-08 21:51:48,498:INFO: - new best score!
+2018-05-08 21:51:48,498:INFO: Epoch 2 out of 5
+2018-05-08 21:51:52,535:INFO: Accuracy 75.65217391304347 - F1 24.226804123711343
+2018-05-08 21:51:53,166:INFO: - new best score!
+2018-05-08 21:51:53,166:INFO: Epoch 3 out of 5
+2018-05-08 21:51:57,200:INFO: Accuracy 83.35403726708076 - F1 35.140997830802604
+2018-05-08 21:51:57,832:INFO: - new best score!
+2018-05-08 21:51:57,833:INFO: Epoch 4 out of 5
+2018-05-08 21:52:01,799:INFO: Accuracy 87.5776397515528 - F1 48.12362030905077
+2018-05-08 21:52:02,458:INFO: - new best score!
+2018-05-08 21:52:02,458:INFO: Epoch 5 out of 5
+2018-05-08 21:52:06,409:INFO: Accuracy 86.83229813664596 - F1 48.660714285714285
+2018-05-08 21:52:07,024:INFO: - new best score!
+2018-05-08 21:52:07,025:INFO: Reloading the latest trained model...
+2018-05-08 21:52:07,025:INFO: Restoring parameters from results/trde/model.weights/
+2018-05-08 21:52:07,393:INFO: Testing model over test set
+2018-05-08 21:52:08,892:INFO: Accuracy 84.82758620689656 - F1 41.592039800995025
+2018-05-08 21:53:16,313:INFO: WARNING: randomly initializing word vectors
+2018-05-08 21:53:21,130:INFO: Initializing tf session
+2018-05-08 21:53:25,571:INFO: Epoch 1 out of 5
+2018-05-08 21:53:32,538:INFO: Accuracy 65.96273291925466 - F1 11.11111111111111
+2018-05-08 21:53:33,220:INFO: - new best score!
+2018-05-08 21:53:33,220:INFO: Epoch 2 out of 5
+2018-05-08 21:53:37,295:INFO: Accuracy 76.64596273291926 - F1 25.66844919786096
+2018-05-08 21:53:37,865:INFO: - new best score!
+2018-05-08 21:53:37,865:INFO: Epoch 3 out of 5
+2018-05-08 21:53:41,878:INFO: Accuracy 84.34782608695653 - F1 40.74074074074075
+2018-05-08 21:53:42,457:INFO: - new best score!
+2018-05-08 21:53:42,457:INFO: Epoch 4 out of 5
+2018-05-08 21:53:46,542:INFO: Accuracy 86.83229813664596 - F1 46.95259593679458
+2018-05-08 21:53:47,131:INFO: - new best score!
+2018-05-08 21:53:47,131:INFO: Epoch 5 out of 5
+2018-05-08 21:53:51,198:INFO: Accuracy 87.32919254658385 - F1 47.598253275109165
+2018-05-08 21:53:51,775:INFO: - new best score!
+2018-05-08 21:53:51,776:INFO: Reloading the latest trained model...
+2018-05-08 21:53:51,776:INFO: Restoring parameters from results/trde/model.weights/
+2018-05-08 21:53:52,136:INFO: Testing model over test set
+2018-05-08 21:53:53,669:INFO: Accuracy 87.68837803320562 - F1 49.77466199298948
+2018-05-08 21:53:53,670:INFO: Testing model over test set
+2018-05-08 21:53:57,502:INFO: Accuracy 85.9456740442656 - F1 45.93427230046949
+2018-05-08 21:58:03,314:INFO: WARNING: randomly initializing word vectors
+2018-05-08 21:58:08,718:INFO: Initializing tf session
+2018-05-08 21:58:13,852:INFO: Epoch 1 out of 5
+2018-05-08 21:58:20,895:INFO: Accuracy 58.01242236024845 - F1 10.245901639344263
+2018-05-08 21:58:21,655:INFO: - new best score!
+2018-05-08 21:58:21,655:INFO: Epoch 2 out of 5
+2018-05-08 21:58:25,552:INFO: Accuracy 76.27329192546584 - F1 31.23425692695215
+2018-05-08 21:58:26,190:INFO: - new best score!
+2018-05-08 21:58:26,190:INFO: Epoch 3 out of 5
+2018-05-08 21:58:30,101:INFO: Accuracy 85.83850931677019 - F1 44.14414414414415
+2018-05-08 21:58:30,727:INFO: - new best score!
+2018-05-08 21:58:30,727:INFO: Epoch 4 out of 5
+2018-05-08 21:58:34,712:INFO: Accuracy 87.32919254658385 - F1 49.11504424778761
+2018-05-08 21:58:35,362:INFO: - new best score!
+2018-05-08 21:58:35,363:INFO: Epoch 5 out of 5
+2018-05-08 21:58:39,330:INFO: Accuracy 87.70186335403727 - F1 49.361702127659576
+2018-05-08 21:58:39,952:INFO: - new best score!
+2018-05-08 21:58:39,953:INFO: Reloading the latest trained model...
+2018-05-08 21:58:39,953:INFO: Restoring parameters from results/trde/model.weights/
+2018-05-08 21:58:40,461:INFO: Testing model over test set
+2018-05-08 21:58:41,953:INFO: Accuracy 87.76500638569604 - F1 51.44855144855146
+2018-05-08 21:58:41,954:INFO: Testing model over test set
+2018-05-08 21:58:45,803:INFO: Accuracy 85.97585513078471 - F1 46.48472799566239
+2018-05-08 22:00:52,147:INFO: WARNING: randomly initializing word vectors
+2018-05-08 22:00:52,147:INFO: WARNING: randomly initializing word vectors
+2018-05-08 22:01:29,178:INFO: WARNING: randomly initializing word vectors
+2018-05-08 22:01:34,531:INFO: Initializing tf session
+2018-05-08 22:01:39,651:INFO: Epoch 1 out of 5
+2018-05-08 22:01:46,599:INFO: Accuracy 67.08074534161491 - F1 15.233415233415235
+2018-05-08 22:01:47,362:INFO: - new best score!
+2018-05-08 22:01:47,362:INFO: Epoch 2 out of 5
+2018-05-08 22:01:51,429:INFO: Accuracy 75.527950310559 - F1 25.97402597402597
+2018-05-08 22:01:52,054:INFO: - new best score!
+2018-05-08 22:01:52,055:INFO: Epoch 3 out of 5
+2018-05-08 22:01:56,089:INFO: Accuracy 84.96894409937889 - F1 42.523364485981304
+2018-05-08 22:01:56,740:INFO: - new best score!
+2018-05-08 22:01:56,740:INFO: Epoch 4 out of 5
+2018-05-08 22:02:00,996:INFO: Accuracy 86.08695652173914 - F1 44.73684210526316
+2018-05-08 22:02:01,634:INFO: - new best score!
+2018-05-08 22:02:01,634:INFO: Epoch 5 out of 5
+2018-05-08 22:02:05,763:INFO: Accuracy 86.95652173913044 - F1 46.389496717724285
+2018-05-08 22:02:06,353:INFO: - new best score!
+2018-05-08 22:02:06,353:INFO: Reloading the latest trained model...
+2018-05-08 22:02:06,353:INFO: Restoring parameters from results/trde/model.weights/
+2018-05-08 22:02:06,714:INFO: Testing model over test set
+2018-05-08 22:02:08,239:INFO: Accuracy 87.9948914431673 - F1 51.05963528831937
+2018-05-08 22:02:08,240:INFO: Testing model over test set
+2018-05-08 22:02:12,178:INFO: Accuracy 85.97585513078471 - F1 47.65512265512265
+2018-05-08 22:04:16,692:INFO: WARNING: randomly initializing word vectors
+2018-05-08 22:04:21,841:INFO: Initializing tf session
+2018-05-08 22:04:25,593:INFO: Epoch 1 out of 5
+2018-05-08 22:04:32,679:INFO: Accuracy 66.83229813664596 - F1 12.571428571428573
+2018-05-08 22:04:33,417:INFO: - new best score!
+2018-05-08 22:04:33,417:INFO: Epoch 2 out of 5
+2018-05-08 22:04:37,413:INFO: Accuracy 76.8944099378882 - F1 26.486486486486488
+2018-05-08 22:04:38,065:INFO: - new best score!
+2018-05-08 22:04:38,066:INFO: Epoch 3 out of 5
+2018-05-08 22:04:42,066:INFO: Accuracy 84.96894409937889 - F1 42.890442890442884
+2018-05-08 22:04:42,692:INFO: - new best score!
+2018-05-08 22:04:42,692:INFO: Epoch 4 out of 5
+2018-05-08 22:04:46,569:INFO: Accuracy 87.20496894409938 - F1 47.55555555555555
+2018-05-08 22:04:47,214:INFO: - new best score!
+2018-05-08 22:04:47,214:INFO: Epoch 5 out of 5
+2018-05-08 22:04:51,166:INFO: Accuracy 87.20496894409938 - F1 46.59340659340659
+2018-05-08 22:04:51,167:INFO: Reloading the latest trained model...
+2018-05-08 22:04:51,167:INFO: Restoring parameters from results/trde/model.weights/
+2018-05-08 22:04:51,541:INFO: Testing model over test set
+2018-05-08 22:04:53,099:INFO: Accuracy 86.79438058748403 - F1 46.69299111549852
+2018-05-08 22:04:53,100:INFO: Testing model over test set
+2018-05-08 22:04:56,793:INFO: Accuracy 85.23138832997988 - F1 44.31627906976744
+2018-05-08 22:26:51,147:INFO: WARNING: randomly initializing word vectors
+2018-05-08 22:26:56,419:INFO: Initializing tf session
+2018-05-08 22:26:59,697:INFO: Epoch 1 out of 5
+2018-05-08 22:31:48,599:INFO: WARNING: randomly initializing word vectors
+2018-05-08 22:31:54,207:INFO: Initializing tf session
+2018-05-08 22:31:58,003:INFO: Epoch 1 out of 5
+2018-05-08 22:45:26,059:INFO: WARNING: randomly initializing word vectors
+2018-05-08 22:45:32,640:INFO: Initializing tf session
+2018-05-08 22:45:36,439:INFO: Epoch 1 out of 5
+2018-05-08 22:45:57,956:INFO: Accuracy 86.7080745341615 - F1 44.742729306487696
+2018-05-08 22:45:58,703:INFO: - new best score!
+2018-05-08 22:45:58,703:INFO: Epoch 2 out of 5
+2018-05-08 22:46:16,622:INFO: Accuracy 89.68944099378882 - F1 54.292343387470986
+2018-05-08 22:46:17,236:INFO: - new best score!
+2018-05-08 22:46:17,236:INFO: Epoch 3 out of 5
+2018-05-08 22:46:36,394:INFO: Accuracy 91.18012422360249 - F1 63.41463414634148
+2018-05-08 22:46:37,032:INFO: - new best score!
+2018-05-08 22:46:37,033:INFO: Epoch 4 out of 5
+2018-05-08 22:46:55,975:INFO: Accuracy 92.67080745341615 - F1 71.7948717948718
+2018-05-08 22:46:56,583:INFO: - new best score!
+2018-05-08 22:46:56,583:INFO: Epoch 5 out of 5
+2018-05-08 23:03:23,879:INFO: WARNING: randomly initializing word vectors
+2018-05-08 23:03:28,743:INFO: Initializing tf session
+2018-05-08 23:03:32,203:INFO: Epoch 1 out of 5
+2018-05-08 23:06:15,789:INFO: WARNING: randomly initializing word vectors
+2018-05-08 23:06:20,981:INFO: Initializing tf session
+2018-05-08 23:06:24,883:INFO: Epoch 1 out of 5
+2018-05-08 23:13:32,296:INFO: WARNING: randomly initializing word vectors
+2018-05-08 23:13:37,082:INFO: Initializing tf session
+2018-05-08 23:13:40,034:INFO: Reloading the latest trained model...
+2018-05-08 23:13:40,034:INFO: Restoring parameters from results/trde/model.weights/
+2018-05-08 23:13:40,462:INFO: Testing model over test set
+2018-05-08 23:13:46,485:INFO: Accuracy 94.25287356321839 - F1 73.95833333333334
+2018-05-08 23:14:23,780:INFO: WARNING: randomly initializing word vectors
+2018-05-08 23:14:27,406:INFO: Initializing tf session
+2018-05-08 23:14:30,262:INFO: Reloading the latest trained model...
+2018-05-08 23:14:30,262:INFO: Restoring parameters from results/trde/model.weights/
+2018-05-08 23:14:30,458:INFO: 
+This is an interactive mode.
+To exit, enter 'exit'.
+You can enter a sentence like
+input> I love Paris
+2018-05-08 23:16:28,785:INFO: WARNING: randomly initializing word vectors
+2018-05-08 23:16:33,663:INFO: Initializing tf session
+2018-05-08 23:16:36,678:INFO: Reloading the latest trained model...
+2018-05-08 23:16:36,678:INFO: Restoring parameters from results/trde/model.weights/
+2018-05-08 23:16:36,876:INFO: 
+This is an interactive mode.
+To exit, enter 'exit'.
+You can enter a sentence like
+input> I love Paris
+2018-05-08 23:30:08,500:INFO: WARNING: randomly initializing word vectors
+2018-05-08 23:30:13,293:INFO: Initializing tf session
+2018-05-08 23:30:16,531:INFO: Epoch 1 out of 5
+2018-05-08 23:31:02,640:INFO: WARNING: randomly initializing word vectors
+2018-05-08 23:31:06,346:INFO: Initializing tf session
+2018-05-08 23:31:09,575:INFO: Epoch 1 out of 5
+2018-05-08 23:35:22,582:INFO: WARNING: randomly initializing word vectors
+2018-05-08 23:35:27,706:INFO: Initializing tf session
+2018-05-08 23:35:30,809:INFO: Reloading the latest trained model...
+2018-05-08 23:35:30,809:INFO: Restoring parameters from results/trde/model.weights/
+2018-05-08 23:35:31,022:INFO: 
+This is an interactive mode.
+To exit, enter 'exit'.
+You can enter a sentence like
+input> I love Paris
+2018-05-08 23:39:00,725:INFO: WARNING: randomly initializing word vectors
+2018-05-08 23:39:05,955:INFO: Initializing tf session
+2018-05-08 23:39:09,207:INFO: Reloading the latest trained model...
+2018-05-08 23:39:09,207:INFO: Restoring parameters from results/trde/model.weights/
+2018-05-08 23:39:09,438:INFO: 
+This is an interactive mode.
+To exit, enter 'exit'.
+You can enter a sentence like
+input> I love Paris
+2018-05-08 23:42:48,682:INFO: WARNING: randomly initializing word vectors
+2018-05-08 23:42:53,678:INFO: Initializing tf session
+2018-05-08 23:42:56,821:INFO: Reloading the latest trained model...
+2018-05-08 23:42:56,821:INFO: Restoring parameters from results/trde/model.weights/
+2018-05-08 23:42:57,060:INFO: 
+This is an interactive mode.
+To exit, enter 'exit'.
+You can enter a sentence like
+input> I love Paris
+2018-05-08 23:43:04,560:INFO: I     love Paris 
+2018-05-08 23:43:04,560:INFO: NE.TR TR   TR    
+2018-05-08 23:44:35,797:INFO: WARNING: randomly initializing word vectors
+2018-05-08 23:44:39,936:INFO: Initializing tf session
+2018-05-08 23:44:42,822:INFO: Reloading the latest trained model...
+2018-05-08 23:44:42,822:INFO: Restoring parameters from results/trde/model.weights/
+2018-05-08 23:44:43,001:INFO: 
+This is an interactive mode.
+To exit, enter 'exit'.
+You can enter a sentence like
+input> I love Paris
+2018-05-08 23:44:46,592:INFO: I     love Paris 
+2018-05-08 23:44:46,592:INFO: NE.TR TR   TR    
+2018-05-08 23:53:00,057:INFO: WARNING: randomly initializing word vectors
+2018-05-08 23:53:05,131:INFO: Initializing tf session
+2018-05-08 23:53:08,663:INFO: Epoch 1 out of 5
+2018-05-08 23:53:15,678:INFO: Accuracy 61.61490683229813 - F1 1.3333333333333335
+2018-05-08 23:53:16,421:INFO: - new best score!
+2018-05-08 23:53:16,421:INFO: Epoch 2 out of 5
+2018-05-08 23:53:20,468:INFO: Accuracy 77.63975155279503 - F1 26.35658914728682
+2018-05-08 23:53:21,119:INFO: - new best score!
+2018-05-08 23:53:21,120:INFO: Epoch 3 out of 5
+2018-05-08 23:53:25,370:INFO: Accuracy 84.472049689441 - F1 40.0
+2018-05-08 23:53:25,978:INFO: - new best score!
+2018-05-08 23:53:25,978:INFO: Epoch 4 out of 5
+2018-05-08 23:53:30,019:INFO: Accuracy 85.96273291925466 - F1 42.666666666666664
+2018-05-08 23:53:30,666:INFO: - new best score!
+2018-05-08 23:53:30,666:INFO: Epoch 5 out of 5
+2018-05-08 23:53:34,750:INFO: Accuracy 86.33540372670807 - F1 44.68546637744035
+2018-05-08 23:53:35,366:INFO: - new best score!
+2018-05-08 23:53:35,366:INFO: Reloading the latest trained model...
+2018-05-08 23:53:35,366:INFO: Restoring parameters from results/trde/model.weights/
+2018-05-08 23:53:35,729:INFO: Testing model over test set
+2018-05-08 23:53:37,239:INFO: Accuracy 86.97318007662835 - F1 47.4592994573261
+2018-05-08 23:55:56,816:INFO: WARNING: randomly initializing word vectors
+2018-05-08 23:56:01,860:INFO: Initializing tf session
+2018-05-08 23:56:05,533:INFO: Epoch 1 out of 5
+2018-05-08 23:56:12,477:INFO: Accuracy 56.64596273291925 - F1 0
+2018-05-08 23:56:13,241:INFO: - new best score!
+2018-05-08 23:56:13,241:INFO: Epoch 2 out of 5
+2018-05-08 23:56:17,072:INFO: Accuracy 78.26086956521739 - F1 25.89531680440772
+2018-05-08 23:56:17,754:INFO: - new best score!
+2018-05-08 23:56:17,754:INFO: Epoch 3 out of 5
+2018-05-08 23:56:21,565:INFO: Accuracy 86.33540372670807 - F1 45.965770171149146
+2018-05-08 23:56:22,194:INFO: - new best score!
+2018-05-08 23:56:22,194:INFO: Epoch 4 out of 5
+2018-05-08 23:56:26,042:INFO: Accuracy 87.0807453416149 - F1 47.08624708624709
+2018-05-08 23:56:26,687:INFO: - new best score!
+2018-05-08 23:56:26,687:INFO: Epoch 5 out of 5
+2018-05-08 23:56:30,556:INFO: Accuracy 87.70186335403727 - F1 51.24716553287981
+2018-05-08 23:56:31,221:INFO: - new best score!
+2018-05-08 23:56:31,222:INFO: Reloading the latest trained model...
+2018-05-08 23:56:31,222:INFO: Restoring parameters from results/trde/model.weights/
+2018-05-08 23:56:31,591:INFO: Testing model over test set
+2018-05-08 23:56:33,079:INFO: Accuracy 87.27969348659003 - F1 49.323621227887614
+2018-05-08 23:57:44,965:INFO: WARNING: randomly initializing word vectors
+2018-05-08 23:57:49,796:INFO: Initializing tf session
+2018-05-08 23:57:53,072:INFO: Epoch 1 out of 5
+2018-05-08 23:57:59,824:INFO: Accuracy 61.73913043478261 - F1 12.581344902386116
+2018-05-08 23:58:00,482:INFO: - new best score!
+2018-05-08 23:58:00,483:INFO: Epoch 2 out of 5
+2018-05-08 23:58:04,481:INFO: Accuracy 75.03105590062111 - F1 27.621483375959077
+2018-05-08 23:58:05,106:INFO: - new best score!
+2018-05-08 23:58:05,106:INFO: Epoch 3 out of 5
+2018-05-08 23:58:09,074:INFO: Accuracy 84.472049689441 - F1 41.31868131868132
+2018-05-08 23:58:09,704:INFO: - new best score!
+2018-05-08 23:58:09,705:INFO: Epoch 4 out of 5
+2018-05-08 23:58:13,669:INFO: Accuracy 86.08695652173914 - F1 43.61233480176211
+2018-05-08 23:58:14,287:INFO: - new best score!
+2018-05-08 23:58:14,287:INFO: Epoch 5 out of 5
+2018-05-08 23:58:18,255:INFO: Accuracy 86.83229813664596 - F1 44.98886414253897
+2018-05-08 23:58:18,883:INFO: - new best score!
+2018-05-08 23:58:18,883:INFO: Reloading the latest trained model...
+2018-05-08 23:58:18,884:INFO: Restoring parameters from results/trde/model.weights/
+2018-05-08 23:58:19,533:INFO: Testing model over test set
+2018-05-08 23:58:21,190:INFO: Accuracy 86.74329501915709 - F1 44.97991967871486
+2018-05-09 00:00:12,832:INFO: Reloading the latest trained model...
+2018-05-09 00:00:19,963:INFO: WARNING: randomly initializing word vectors
+2018-05-09 00:00:24,993:INFO: Initializing tf session
+2018-05-09 00:00:31,668:INFO: Reloading the latest trained model...
+2018-05-09 00:00:31,669:INFO: Restoring parameters from results/trde/model.weights/
+2018-05-09 00:18:50,299:INFO: WARNING: randomly initializing word vectors
+2018-05-09 00:18:55,116:INFO: Initializing tf session
+2018-05-09 00:18:59,606:INFO: Epoch 1 out of 5
+2018-05-09 00:19:42,713:INFO: WARNING: randomly initializing word vectors
+2018-05-09 00:19:46,594:INFO: Initializing tf session
+2018-05-09 00:19:49,481:INFO: Epoch 1 out of 5
+2018-05-09 00:20:43,613:INFO: WARNING: randomly initializing word vectors
+2018-05-09 00:20:48,811:INFO: Initializing tf session
+2018-05-09 00:20:52,215:INFO: Epoch 1 out of 5
+2018-05-09 00:20:59,392:INFO: Accuracy 57.018633540372676 - F1 0
+2018-05-09 00:21:00,164:INFO: - new best score!
+2018-05-09 00:21:00,164:INFO: Epoch 2 out of 5
+2018-05-09 00:21:04,720:INFO: Accuracy 78.88198757763976 - F1 26.558265582655828
+2018-05-09 00:21:05,343:INFO: - new best score!
+2018-05-09 00:21:05,343:INFO: Epoch 3 out of 5
+2018-05-09 00:21:09,981:INFO: Accuracy 85.34161490683229 - F1 42.7906976744186
+2018-05-09 00:21:10,601:INFO: - new best score!
+2018-05-09 00:21:10,601:INFO: Epoch 4 out of 5
+2018-05-09 00:21:15,164:INFO: Accuracy 87.32919254658385 - F1 49.42263279445728
+2018-05-09 00:21:15,793:INFO: - new best score!
+2018-05-09 00:21:15,793:INFO: Epoch 5 out of 5
+2018-05-09 00:21:20,431:INFO: Accuracy 87.32919254658385 - F1 48.55233853006682
+2018-05-09 00:21:20,431:INFO: Reloading the latest trained model...
+2018-05-09 00:21:20,432:INFO: Restoring parameters from results/trde/model.weights/
+2018-05-09 00:21:20,812:INFO: Testing model over test set
+2018-05-09 00:21:22,705:INFO: Accuracy 85.13409961685824 - F1 43.9873417721519
+2018-05-09 00:21:38,971:INFO: WARNING: randomly initializing word vectors
+2018-05-09 00:23:56,539:INFO: WARNING: randomly initializing word vectors
+2018-05-09 00:24:01,667:INFO: Initializing tf session
+2018-05-09 00:24:05,053:INFO: Epoch 1 out of 5
+2018-05-09 00:24:12,166:INFO: Accuracy 64.09937888198758 - F1 11.633109619686802
+2018-05-09 00:24:12,925:INFO: - new best score!
+2018-05-09 00:24:12,926:INFO: Epoch 2 out of 5
+2018-05-09 00:24:17,454:INFO: Accuracy 76.0248447204969 - F1 29.866666666666664
+2018-05-09 00:24:18,096:INFO: - new best score!
+2018-05-09 00:24:18,096:INFO: Epoch 3 out of 5
+2018-05-09 00:24:22,647:INFO: Accuracy 85.83850931677019 - F1 43.269230769230774
+2018-05-09 00:24:23,296:INFO: - new best score!
+2018-05-09 00:24:23,296:INFO: Epoch 4 out of 5
+2018-05-09 00:24:27,819:INFO: Accuracy 87.5776397515528 - F1 46.261682242990645
+2018-05-09 00:24:28,495:INFO: - new best score!
+2018-05-09 00:24:28,495:INFO: Epoch 5 out of 5
+2018-05-09 00:24:33,045:INFO: Accuracy 87.0807453416149 - F1 45.751633986928105
+2018-05-09 00:24:33,045:INFO: Reloading the latest trained model...
+2018-05-09 00:24:33,046:INFO: Restoring parameters from results/trde/model.weights/
+2018-05-09 00:24:33,699:INFO: Testing model over test set
+2018-05-09 00:24:35,560:INFO: Accuracy 86.38569604086845 - F1 45.39813857290589
+2018-05-09 00:24:51,742:INFO: WARNING: randomly initializing word vectors
+2018-05-09 00:24:53,854:INFO: Initializing tf session
+2018-05-09 00:24:55,219:INFO: Epoch 1 out of 5
+2018-05-09 00:25:04,813:INFO: Accuracy 63.975155279503106 - F1 3.797468354430379
+2018-05-09 00:25:05,501:INFO: - new best score!
+2018-05-09 00:25:05,501:INFO: Epoch 2 out of 5
+2018-05-09 00:25:12,722:INFO: Accuracy 85.09316770186336 - F1 34.91271820448878
+2018-05-09 00:25:13,371:INFO: - new best score!
+2018-05-09 00:25:13,372:INFO: Epoch 3 out of 5
+2018-05-09 00:25:20,601:INFO: Accuracy 87.82608695652175 - F1 45.1923076923077
+2018-05-09 00:25:21,264:INFO: - new best score!
+2018-05-09 00:25:21,264:INFO: Epoch 4 out of 5
+2018-05-09 00:25:28,549:INFO: Accuracy 88.94409937888199 - F1 49.41176470588235
+2018-05-09 00:25:29,279:INFO: - new best score!
+2018-05-09 00:25:29,279:INFO: Epoch 5 out of 5
+2018-05-09 00:25:36,601:INFO: Accuracy 89.06832298136645 - F1 52.293577981651374
+2018-05-09 00:25:37,239:INFO: - new best score!
+2018-05-09 00:25:37,239:INFO: Reloading the latest trained model...
+2018-05-09 00:25:37,240:INFO: Restoring parameters from results/trde/model.weights/
+2018-05-09 00:25:37,744:INFO: Testing model over test set
+2018-05-09 00:25:39,582:INFO: Accuracy 90.42145593869732 - F1 58.38060856111398
+2018-05-09 00:25:52,213:INFO: WARNING: randomly initializing word vectors
+2018-05-09 00:25:54,358:INFO: Initializing tf session
+2018-05-09 00:25:55,098:INFO: Epoch 1 out of 5
+2018-05-09 00:26:08,153:INFO: Accuracy 64.22360248447205 - F1 1.2269938650306749
+2018-05-09 00:26:08,809:INFO: - new best score!
+2018-05-09 00:26:08,809:INFO: Epoch 2 out of 5
+2018-05-09 00:26:19,456:INFO: Accuracy 86.95652173913044 - F1 43.90243902439025
+2018-05-09 00:26:20,088:INFO: - new best score!
+2018-05-09 00:26:20,088:INFO: Epoch 3 out of 5
+2018-05-09 00:26:38,358:INFO: WARNING: randomly initializing word vectors
+2018-05-09 00:26:43,414:INFO: Initializing tf session
+2018-05-09 00:26:46,638:INFO: Epoch 1 out of 5
+2018-05-09 00:26:53,573:INFO: Accuracy 60.24844720496895 - F1 0
+2018-05-09 00:26:54,245:INFO: - new best score!
+2018-05-09 00:26:54,246:INFO: Epoch 2 out of 5
+2018-05-09 00:26:58,500:INFO: Accuracy 76.77018633540372 - F1 25.139664804469277
+2018-05-09 00:26:59,090:INFO: - new best score!
+2018-05-09 00:26:59,090:INFO: Epoch 3 out of 5
+2018-05-09 00:27:03,483:INFO: Accuracy 86.2111801242236 - F1 48.17518248175182
+2018-05-09 00:27:04,103:INFO: - new best score!
+2018-05-09 00:27:04,103:INFO: Epoch 4 out of 5
+2018-05-09 00:27:08,447:INFO: Accuracy 87.32919254658385 - F1 48.86877828054299
+2018-05-09 00:27:09,061:INFO: - new best score!
+2018-05-09 00:27:09,061:INFO: Epoch 5 out of 5
+2018-05-09 00:27:13,491:INFO: Accuracy 87.20496894409938 - F1 49.33920704845814
+2018-05-09 00:27:14,127:INFO: - new best score!
+2018-05-09 00:27:14,128:INFO: Reloading the latest trained model...
+2018-05-09 00:27:14,128:INFO: Restoring parameters from results/trde/model.weights/
+2018-05-09 00:27:14,499:INFO: Testing model over test set
+2018-05-09 00:27:16,301:INFO: Accuracy 88.78671775223499 - F1 54.25641025641027
+2018-05-09 00:27:31,113:INFO: WARNING: randomly initializing word vectors
+2018-05-09 00:27:33,419:INFO: Initializing tf session
+2018-05-09 00:27:34,047:INFO: Epoch 1 out of 5
+2018-05-09 00:27:43,344:INFO: Accuracy 64.84472049689441 - F1 5.217391304347826
+2018-05-09 00:27:43,998:INFO: - new best score!
+2018-05-09 00:27:43,999:INFO: Epoch 2 out of 5
+2018-05-09 00:27:50,932:INFO: Accuracy 79.87577639751552 - F1 30.0
+2018-05-09 00:27:51,587:INFO: - new best score!
+2018-05-09 00:27:51,587:INFO: Epoch 3 out of 5
+2018-05-09 00:27:58,668:INFO: Accuracy 85.71428571428571 - F1 40.95860566448802
+2018-05-09 00:27:59,313:INFO: - new best score!
+2018-05-09 00:27:59,314:INFO: Epoch 4 out of 5
+2018-05-09 00:28:06,265:INFO: Accuracy 87.20496894409938 - F1 46.22030237580993
+2018-05-09 00:28:06,886:INFO: - new best score!
+2018-05-09 00:28:06,886:INFO: Epoch 5 out of 5
+2018-05-09 00:28:13,976:INFO: Accuracy 88.19875776397515 - F1 50.0
+2018-05-09 00:28:14,600:INFO: - new best score!
+2018-05-09 00:28:14,600:INFO: Reloading the latest trained model...
+2018-05-09 00:28:14,600:INFO: Restoring parameters from results/trde/model.weights/
+2018-05-09 00:28:14,970:INFO: Testing model over test set
+2018-05-09 00:28:16,789:INFO: Accuracy 89.11877394636015 - F1 52.32903865213082
+2018-05-09 00:28:28,698:INFO: WARNING: randomly initializing word vectors
+2018-05-09 00:28:30,910:INFO: Initializing tf session
+2018-05-09 00:28:31,662:INFO: Epoch 1 out of 5
+2018-05-09 00:28:44,131:INFO: Accuracy 63.35403726708074 - F1 0
+2018-05-09 00:28:44,785:INFO: - new best score!
+2018-05-09 00:28:44,785:INFO: Epoch 2 out of 5
+2018-05-09 00:28:54,960:INFO: Accuracy 82.36024844720497 - F1 27.450980392156865
+2018-05-09 00:28:55,608:INFO: - new best score!
+2018-05-09 00:28:55,608:INFO: Epoch 3 out of 5
+2018-05-09 00:29:05,868:INFO: Accuracy 88.81987577639751 - F1 46.310432569974544
+2018-05-09 00:29:06,491:INFO: - new best score!
+2018-05-09 00:29:06,491:INFO: Epoch 4 out of 5
+2018-05-09 00:29:16,763:INFO: Accuracy 89.3167701863354 - F1 47.64267990074442
+2018-05-09 00:29:17,378:INFO: - new best score!
+2018-05-09 00:29:17,378:INFO: Epoch 5 out of 5
+2018-05-09 00:29:27,589:INFO: Accuracy 89.19254658385093 - F1 49.02912621359224
+2018-05-09 00:29:28,215:INFO: - new best score!
+2018-05-09 00:29:28,216:INFO: Reloading the latest trained model...
+2018-05-09 00:29:28,216:INFO: Restoring parameters from results/trde/model.weights/
+2018-05-09 00:29:28,585:INFO: Testing model over test set
+2018-05-09 00:29:30,317:INFO: Accuracy 91.11111111111111 - F1 57.90055248618785
+2018-05-09 00:33:33,829:INFO: WARNING: randomly initializing word vectors
+2018-05-09 00:33:39,147:INFO: Initializing tf session
+2018-05-09 00:33:42,636:INFO: Epoch 1 out of 5
+2018-05-09 00:33:49,817:INFO: Accuracy 56.8944099378882 - F1 0
+2018-05-09 00:33:50,504:INFO: - new best score!
+2018-05-09 00:33:50,504:INFO: Epoch 2 out of 5
+2018-05-09 00:33:54,886:INFO: Accuracy 80.24844720496894 - F1 27.894736842105267
+2018-05-09 00:33:55,496:INFO: - new best score!
+2018-05-09 00:33:55,496:INFO: Epoch 3 out of 5
+2018-05-09 00:33:59,974:INFO: Accuracy 86.08695652173914 - F1 46.261682242990645
+2018-05-09 00:34:00,578:INFO: - new best score!
+2018-05-09 00:34:00,579:INFO: Epoch 4 out of 5
+2018-05-09 00:34:05,054:INFO: Accuracy 86.2111801242236 - F1 43.63636363636364
+2018-05-09 00:34:05,054:INFO: Epoch 5 out of 5
+2018-05-09 00:34:09,516:INFO: Accuracy 87.20496894409938 - F1 45.04504504504504
+2018-05-09 00:34:09,517:INFO: Reloading the latest trained model...
+2018-05-09 00:34:09,517:INFO: Restoring parameters from results/trde/model.weights/
+2018-05-09 00:34:09,894:INFO: Testing model over test set
+2018-05-09 00:34:11,734:INFO: Accuracy 82.9374201787995 - F1 39.33229003651539
+2018-05-09 00:34:27,939:INFO: WARNING: randomly initializing word vectors
+2018-05-09 00:34:30,199:INFO: Initializing tf session
+2018-05-09 00:34:31,027:INFO: Epoch 1 out of 5
+2018-05-09 00:34:40,432:INFO: Accuracy 66.70807453416148 - F1 2.622950819672131
+2018-05-09 00:34:41,071:INFO: - new best score!
+2018-05-09 00:34:41,072:INFO: Epoch 2 out of 5
+2018-05-09 00:34:48,136:INFO: Accuracy 84.472049689441 - F1 34.39153439153439
+2018-05-09 00:34:48,758:INFO: - new best score!
+2018-05-09 00:34:48,758:INFO: Epoch 3 out of 5
+2018-05-09 00:34:55,922:INFO: Accuracy 88.4472049689441 - F1 47.0873786407767
+2018-05-09 00:34:56,563:INFO: - new best score!
+2018-05-09 00:34:56,564:INFO: Epoch 4 out of 5
+2018-05-09 00:35:03,799:INFO: Accuracy 88.94409937888199 - F1 50.23474178403756
+2018-05-09 00:35:04,452:INFO: - new best score!
+2018-05-09 00:35:04,453:INFO: Epoch 5 out of 5
+2018-05-09 00:35:11,672:INFO: Accuracy 89.3167701863354 - F1 53.11778290993071
+2018-05-09 00:35:12,293:INFO: - new best score!
+2018-05-09 00:35:12,293:INFO: Reloading the latest trained model...
+2018-05-09 00:35:12,293:INFO: Restoring parameters from results/trde/model.weights/
+2018-05-09 00:35:12,662:INFO: Testing model over test set
+2018-05-09 00:35:14,573:INFO: Accuracy 91.08556832694764 - F1 60.55143160127253
+2018-05-09 00:35:27,626:INFO: WARNING: randomly initializing word vectors
+2018-05-09 00:35:29,792:INFO: Initializing tf session
+2018-05-09 00:35:30,597:INFO: Epoch 1 out of 5
+2018-05-09 00:35:43,436:INFO: Accuracy 64.09937888198758 - F1 1.2269938650306749
+2018-05-09 00:35:44,082:INFO: - new best score!
+2018-05-09 00:35:44,083:INFO: Epoch 2 out of 5
+2018-05-09 00:35:54,632:INFO: Accuracy 83.47826086956522 - F1 33.09692671394799
+2018-05-09 00:35:55,241:INFO: - new best score!
+2018-05-09 00:35:55,242:INFO: Epoch 3 out of 5
+2018-05-09 00:36:05,928:INFO: Accuracy 87.20496894409938 - F1 44.9438202247191
+2018-05-09 00:36:06,567:INFO: - new best score!
+2018-05-09 00:36:06,568:INFO: Epoch 4 out of 5
+2018-05-09 00:36:17,290:INFO: Accuracy 88.4472049689441 - F1 52.03619909502263
+2018-05-09 00:36:17,926:INFO: - new best score!
+2018-05-09 00:36:17,926:INFO: Epoch 5 out of 5
+2018-05-09 00:36:28,594:INFO: Accuracy 88.81987577639751 - F1 55.125284738041
+2018-05-09 00:36:29,218:INFO: - new best score!
+2018-05-09 00:36:29,218:INFO: Reloading the latest trained model...
+2018-05-09 00:36:29,218:INFO: Restoring parameters from results/trde/model.weights/
+2018-05-09 00:36:29,577:INFO: Testing model over test set
+2018-05-09 00:36:31,456:INFO: Accuracy 91.49425287356323 - F1 61.02403343782654
+2018-05-09 00:38:53,940:INFO: WARNING: randomly initializing word vectors
+2018-05-09 00:38:59,130:INFO: Initializing tf session
+2018-05-09 00:39:02,616:INFO: Epoch 1 out of 5
+2018-05-09 00:39:09,657:INFO: Accuracy 60.86956521739131 - F1 0.6622516556291391
+2018-05-09 00:39:10,314:INFO: - new best score!
+2018-05-09 00:39:10,315:INFO: Epoch 2 out of 5
+2018-05-09 00:39:14,675:INFO: Accuracy 78.38509316770185 - F1 25.757575757575758
+2018-05-09 00:39:15,293:INFO: - new best score!
+2018-05-09 00:39:15,294:INFO: Epoch 3 out of 5
+2018-05-09 00:39:19,699:INFO: Accuracy 84.472049689441 - F1 42.50559284116331
+2018-05-09 00:39:20,321:INFO: - new best score!
+2018-05-09 00:39:20,321:INFO: Epoch 4 out of 5
+2018-05-09 00:39:24,699:INFO: Accuracy 86.95652173913044 - F1 47.45011086474501
+2018-05-09 00:39:25,298:INFO: - new best score!
+2018-05-09 00:39:25,298:INFO: Epoch 5 out of 5
+2018-05-09 00:39:29,700:INFO: Accuracy 87.32919254658385 - F1 48.33702882483371
+2018-05-09 00:39:30,324:INFO: - new best score!
+2018-05-09 00:39:30,324:INFO: Reloading the latest trained model...
+2018-05-09 00:39:30,324:INFO: Restoring parameters from results/trde/model.weights/
+2018-05-09 00:39:30,695:INFO: Testing model over test set
+2018-05-09 00:39:32,441:INFO: Accuracy 88.09706257982121 - F1 50.75834175935289
+2018-05-09 00:39:47,412:INFO: WARNING: randomly initializing word vectors
+2018-05-09 00:39:49,532:INFO: Initializing tf session
+2018-05-09 00:39:50,300:INFO: Epoch 1 out of 5
+2018-05-09 00:40:01,400:INFO: Accuracy 68.81987577639752 - F1 12.77641277641278
+2018-05-09 00:40:02,075:INFO: - new best score!
+2018-05-09 00:40:02,075:INFO: Epoch 2 out of 5
+2018-05-09 00:40:10,740:INFO: Accuracy 81.73913043478261 - F1 35.320088300220746
+2018-05-09 00:40:11,379:INFO: - new best score!
+2018-05-09 00:40:11,379:INFO: Epoch 3 out of 5
+2018-05-09 00:40:19,926:INFO: Accuracy 85.96273291925466 - F1 43.103448275862064
+2018-05-09 00:40:20,544:INFO: - new best score!
+2018-05-09 00:40:20,544:INFO: Epoch 4 out of 5
+2018-05-09 00:40:29,151:INFO: Accuracy 88.57142857142857 - F1 51.32743362831859
+2018-05-09 00:40:29,784:INFO: - new best score!
+2018-05-09 00:40:29,784:INFO: Epoch 5 out of 5
+2018-05-09 00:40:38,379:INFO: Accuracy 88.4472049689441 - F1 50.43859649122807
+2018-05-09 00:40:38,380:INFO: Reloading the latest trained model...
+2018-05-09 00:40:38,380:INFO: Restoring parameters from results/trde/model.weights/
+2018-05-09 00:40:38,755:INFO: Testing model over test set
+2018-05-09 00:40:40,458:INFO: Accuracy 86.79438058748403 - F1 44.94706448508181
+2018-05-09 00:40:51,162:INFO: WARNING: randomly initializing word vectors
+2018-05-09 00:40:53,424:INFO: Initializing tf session
+2018-05-09 00:40:54,206:INFO: Epoch 1 out of 5
+2018-05-09 00:41:09,067:INFO: Accuracy 70.43478260869566 - F1 10.0
+2018-05-09 00:41:09,710:INFO: - new best score!
+2018-05-09 00:41:09,710:INFO: Epoch 2 out of 5
+2018-05-09 00:41:22,278:INFO: Accuracy 82.2360248447205 - F1 31.27962085308057
+2018-05-09 00:41:22,914:INFO: - new best score!
+2018-05-09 00:41:22,914:INFO: Epoch 3 out of 5
+2018-05-09 00:41:35,646:INFO: Accuracy 87.5776397515528 - F1 45.581395348837205
+2018-05-09 00:41:36,279:INFO: - new best score!
+2018-05-09 00:41:36,279:INFO: Epoch 4 out of 5
+2018-05-09 00:41:49,045:INFO: Accuracy 88.94409937888199 - F1 54.91990846681922
+2018-05-09 00:41:49,662:INFO: - new best score!
+2018-05-09 00:41:49,663:INFO: Epoch 5 out of 5
+2018-05-09 00:42:02,307:INFO: Accuracy 88.57142857142857 - F1 50.67873303167422
+2018-05-09 00:42:02,308:INFO: Reloading the latest trained model...
+2018-05-09 00:42:02,308:INFO: Restoring parameters from results/trde/model.weights/
+2018-05-09 00:42:02,687:INFO: Testing model over test set
+2018-05-09 00:42:04,500:INFO: Accuracy 87.33077905491699 - F1 45.93921275535625
+2018-05-09 00:42:11,468:INFO: WARNING: randomly initializing word vectors
+2018-05-09 00:42:13,587:INFO: Initializing tf session
+2018-05-09 00:42:14,304:INFO: Epoch 1 out of 5
+2018-05-09 00:42:33,286:INFO: Accuracy 66.08695652173913 - F1 5.420054200542005
+2018-05-09 00:42:33,911:INFO: - new best score!
+2018-05-09 00:42:33,911:INFO: Epoch 2 out of 5
+2018-05-09 00:42:50,599:INFO: Accuracy 82.36024844720497 - F1 29.776674937965254
+2018-05-09 00:42:51,261:INFO: - new best score!
+2018-05-09 00:42:51,261:INFO: Epoch 3 out of 5
+2018-05-09 00:43:08,145:INFO: Accuracy 87.95031055900621 - F1 46.77804295942721
+2018-05-09 00:43:08,817:INFO: - new best score!
+2018-05-09 00:43:08,817:INFO: Epoch 4 out of 5
+2018-05-09 00:43:25,514:INFO: Accuracy 88.19875776397515 - F1 50.228310502283115
+2018-05-09 00:43:26,297:INFO: - new best score!
+2018-05-09 00:43:26,297:INFO: Epoch 5 out of 5
+2018-05-09 00:43:43,002:INFO: Accuracy 87.32919254658385 - F1 49.00662251655629
+2018-05-09 00:43:43,003:INFO: Reloading the latest trained model...
+2018-05-09 00:43:43,003:INFO: Restoring parameters from results/trde/model.weights/
+2018-05-09 00:43:43,382:INFO: Testing model over test set
+2018-05-09 00:43:45,163:INFO: Accuracy 88.88888888888889 - F1 54.23907319641916
+2018-05-09 00:45:16,065:INFO: WARNING: randomly initializing word vectors
+2018-05-09 00:45:21,512:INFO: Initializing tf session
+2018-05-09 00:45:24,993:INFO: Epoch 1 out of 15
+2018-05-09 00:45:32,177:INFO: Accuracy 57.267080745341616 - F1 0
+2018-05-09 00:45:32,862:INFO: - new best score!
+2018-05-09 00:45:32,863:INFO: Epoch 2 out of 15
+2018-05-09 00:45:37,337:INFO: Accuracy 78.13664596273291 - F1 24.8062015503876
+2018-05-09 00:45:37,955:INFO: - new best score!
+2018-05-09 00:45:37,955:INFO: Epoch 3 out of 15
+2018-05-09 00:45:42,468:INFO: Accuracy 85.09316770186336 - F1 42.691415313225065
+2018-05-09 00:45:43,104:INFO: - new best score!
+2018-05-09 00:45:43,104:INFO: Epoch 4 out of 15
+2018-05-09 00:45:47,627:INFO: Accuracy 87.20496894409938 - F1 48.9977728285078
+2018-05-09 00:45:48,229:INFO: - new best score!
+2018-05-09 00:45:48,229:INFO: Epoch 5 out of 15
+2018-05-09 00:45:52,768:INFO: Accuracy 87.20496894409938 - F1 49.130434782608695
+2018-05-09 00:45:53,384:INFO: - new best score!
+2018-05-09 00:45:53,385:INFO: Epoch 6 out of 15
+2018-05-09 00:45:57,830:INFO: Accuracy 87.45341614906832 - F1 49.78354978354979
+2018-05-09 00:45:58,442:INFO: - new best score!
+2018-05-09 00:45:58,443:INFO: Epoch 7 out of 15
+2018-05-09 00:46:02,967:INFO: Accuracy 88.4472049689441 - F1 51.2035010940919
+2018-05-09 00:46:03,587:INFO: - new best score!
+2018-05-09 00:46:03,587:INFO: Epoch 8 out of 15
+2018-05-09 00:46:08,080:INFO: Accuracy 88.19875776397515 - F1 51.83585313174947
+2018-05-09 00:46:08,678:INFO: - new best score!
+2018-05-09 00:46:08,679:INFO: Epoch 9 out of 15
+2018-05-09 00:46:13,140:INFO: Accuracy 88.32298136645963 - F1 54.27350427350427
+2018-05-09 00:46:13,768:INFO: - new best score!
+2018-05-09 00:46:13,768:INFO: Epoch 10 out of 15
+2018-05-09 00:46:18,209:INFO: Accuracy 87.82608695652175 - F1 51.27118644067797
+2018-05-09 00:46:18,209:INFO: Epoch 11 out of 15
+2018-05-09 00:46:22,709:INFO: Accuracy 88.32298136645963 - F1 53.333333333333336
+2018-05-09 00:46:22,709:INFO: Epoch 12 out of 15
+2018-05-09 00:46:27,199:INFO: Accuracy 88.81987577639751 - F1 55.24625267665952
+2018-05-09 00:46:27,831:INFO: - new best score!
+2018-05-09 00:46:27,832:INFO: Epoch 13 out of 15
+2018-05-09 00:46:32,319:INFO: Accuracy 88.4472049689441 - F1 53.13807531380752
+2018-05-09 00:46:32,320:INFO: Epoch 14 out of 15
+2018-05-09 00:46:36,786:INFO: Accuracy 89.06832298136645 - F1 53.92781316348195
+2018-05-09 00:46:36,786:INFO: Epoch 15 out of 15
+2018-05-09 00:46:41,332:INFO: Accuracy 89.06832298136645 - F1 54.96828752642706
+2018-05-09 00:46:41,333:INFO: - early stopping 3 epochs without improvement
+2018-05-09 00:46:41,333:INFO: Reloading the latest trained model...
+2018-05-09 00:46:41,333:INFO: Restoring parameters from results/trde/model.weights/
+2018-05-09 00:46:41,711:INFO: Testing model over test set
+2018-05-09 00:46:43,494:INFO: Accuracy 89.45083014048532 - F1 56.86965274282839
+2018-05-09 00:46:58,862:INFO: WARNING: randomly initializing word vectors
+2018-05-09 00:47:01,320:INFO: Initializing tf session
+2018-05-09 00:47:02,016:INFO: Epoch 1 out of 15
+2018-05-09 00:47:13,159:INFO: Accuracy 56.27329192546584 - F1 0
+2018-05-09 00:47:13,824:INFO: - new best score!
+2018-05-09 00:47:13,824:INFO: Epoch 2 out of 15
+2018-05-09 00:47:22,674:INFO: Accuracy 60.62111801242236 - F1 1.3793103448275863
+2018-05-09 00:47:23,309:INFO: - new best score!
+2018-05-09 00:47:23,309:INFO: Epoch 3 out of 15
+2018-05-09 00:47:32,096:INFO: Accuracy 68.94409937888199 - F1 10.179640718562876
+2018-05-09 00:47:32,729:INFO: - new best score!
+2018-05-09 00:47:32,729:INFO: Epoch 4 out of 15
+2018-05-09 00:47:41,548:INFO: Accuracy 78.63354037267081 - F1 27.10997442455243
+2018-05-09 00:47:42,178:INFO: - new best score!
+2018-05-09 00:47:42,178:INFO: Epoch 5 out of 15
+2018-05-09 00:47:50,987:INFO: Accuracy 82.48447204968944 - F1 32.76283618581907
+2018-05-09 00:47:51,615:INFO: - new best score!
+2018-05-09 00:47:51,616:INFO: Epoch 6 out of 15
+2018-05-09 00:48:00,391:INFO: Accuracy 86.33540372670807 - F1 43.98148148148148
+2018-05-09 00:48:01,005:INFO: - new best score!
+2018-05-09 00:48:01,005:INFO: Epoch 7 out of 15
+2018-05-09 00:48:09,819:INFO: Accuracy 87.5776397515528 - F1 49.202733485193626
+2018-05-09 00:48:10,419:INFO: - new best score!
+2018-05-09 00:48:10,419:INFO: Epoch 8 out of 15
+2018-05-09 00:48:19,208:INFO: Accuracy 88.07453416149067 - F1 50.580046403712295
+2018-05-09 00:48:19,826:INFO: - new best score!
+2018-05-09 00:48:19,826:INFO: Epoch 9 out of 15
+2018-05-09 00:48:28,676:INFO: Accuracy 88.32298136645963 - F1 50.80831408775981
+2018-05-09 00:48:29,302:INFO: - new best score!
+2018-05-09 00:48:29,303:INFO: Epoch 10 out of 15
+2018-05-09 00:48:38,102:INFO: Accuracy 88.69565217391305 - F1 52.41379310344828
+2018-05-09 00:48:38,716:INFO: - new best score!
+2018-05-09 00:48:38,716:INFO: Epoch 11 out of 15
+2018-05-09 00:48:47,556:INFO: Accuracy 88.94409937888199 - F1 53.11778290993071
+2018-05-09 00:48:48,170:INFO: - new best score!
+2018-05-09 00:48:48,170:INFO: Epoch 12 out of 15
+2018-05-09 00:48:56,986:INFO: Accuracy 89.19254658385093 - F1 53.828306264501165
+2018-05-09 00:48:57,609:INFO: - new best score!
+2018-05-09 00:48:57,610:INFO: Epoch 13 out of 15
+2018-05-09 00:49:06,442:INFO: Accuracy 89.44099378881988 - F1 54.71264367816092
+2018-05-09 00:49:07,061:INFO: - new best score!
+2018-05-09 00:49:07,061:INFO: Epoch 14 out of 15
+2018-05-09 00:49:15,910:INFO: Accuracy 89.3167701863354 - F1 54.004576659038904
+2018-05-09 00:49:15,910:INFO: Epoch 15 out of 15
+2018-05-09 00:49:24,744:INFO: Accuracy 89.19254658385093 - F1 53.703703703703695
+2018-05-09 00:49:24,745:INFO: Reloading the latest trained model...
+2018-05-09 00:49:24,745:INFO: Restoring parameters from results/trde/model.weights/
+2018-05-09 00:49:25,131:INFO: Testing model over test set
+2018-05-09 00:49:26,866:INFO: Accuracy 87.79054916985952 - F1 48.45995893223819
+2018-05-09 00:49:38,056:INFO: WARNING: randomly initializing word vectors
+2018-05-09 00:49:40,523:INFO: Initializing tf session
+2018-05-09 00:49:41,265:INFO: Epoch 1 out of 15
+2018-05-09 00:49:56,483:INFO: Accuracy 56.149068322981364 - F1 1.3377926421404684
+2018-05-09 00:49:57,128:INFO: - new best score!
+2018-05-09 00:49:57,128:INFO: Epoch 2 out of 15
+2018-05-09 00:50:10,043:INFO: Accuracy 56.52173913043478 - F1 0.6872852233676977
+2018-05-09 00:50:10,044:INFO: Epoch 3 out of 15
+2018-05-09 00:50:23,030:INFO: Accuracy 58.01242236024845 - F1 0
+2018-05-09 00:50:23,031:INFO: Epoch 4 out of 15
+2018-05-09 00:50:36,071:INFO: Accuracy 59.25465838509317 - F1 0
+2018-05-09 00:50:36,072:INFO: - early stopping 3 epochs without improvement
+2018-05-09 00:50:36,072:INFO: Reloading the latest trained model...
+2018-05-09 00:50:36,073:INFO: Restoring parameters from results/trde/model.weights/
+2018-05-09 00:50:36,452:INFO: Testing model over test set
+2018-05-09 00:50:38,160:INFO: Accuracy 44.112388250319285 - F1 0.306044376434583
+2018-05-09 00:50:45,216:INFO: WARNING: randomly initializing word vectors
+2018-05-09 00:50:47,364:INFO: Initializing tf session
+2018-05-09 00:50:48,198:INFO: Epoch 1 out of 15
+2018-05-09 00:51:07,610:INFO: Accuracy 55.52795031055901 - F1 0.634920634920635
+2018-05-09 00:51:08,263:INFO: - new best score!
+2018-05-09 00:51:08,263:INFO: Epoch 2 out of 15
+2018-05-09 00:51:25,512:INFO: Accuracy 59.50310559006211 - F1 2.7932960893854752
+2018-05-09 00:51:26,135:INFO: - new best score!
+2018-05-09 00:51:26,135:INFO: Epoch 3 out of 15
+2018-05-09 00:51:43,313:INFO: Accuracy 61.61490683229813 - F1 3.3149171270718236
+2018-05-09 00:51:43,962:INFO: - new best score!
+2018-05-09 00:51:43,962:INFO: Epoch 4 out of 15
+2018-05-09 00:52:01,320:INFO: Accuracy 62.36024844720497 - F1 3.8461538461538463
+2018-05-09 00:52:01,939:INFO: - new best score!
+2018-05-09 00:52:01,940:INFO: Epoch 5 out of 15
+2018-05-09 00:52:19,238:INFO: Accuracy 63.22981366459627 - F1 3.269754768392371
+2018-05-09 00:52:19,239:INFO: Epoch 6 out of 15
+2018-05-09 00:52:36,534:INFO: Accuracy 64.22360248447205 - F1 4.864864864864865
+2018-05-09 00:52:37,163:INFO: - new best score!
+2018-05-09 00:52:37,164:INFO: Epoch 7 out of 15
+2018-05-09 00:52:54,432:INFO: Accuracy 66.2111801242236 - F1 5.835543766578248
+2018-05-09 00:52:55,093:INFO: - new best score!
+2018-05-09 00:52:55,093:INFO: Epoch 8 out of 15
+2018-05-09 00:53:12,260:INFO: Accuracy 67.45341614906832 - F1 7.179487179487181
+2018-05-09 00:53:12,872:INFO: - new best score!
+2018-05-09 00:53:12,873:INFO: Epoch 9 out of 15
+2018-05-09 00:53:30,085:INFO: Accuracy 68.32298136645963 - F1 7.83289817232376
+2018-05-09 00:53:30,696:INFO: - new best score!
+2018-05-09 00:53:30,697:INFO: Epoch 10 out of 15
+2018-05-09 00:53:47,989:INFO: Accuracy 69.06832298136646 - F1 7.9155672823219
+2018-05-09 00:53:48,597:INFO: - new best score!
+2018-05-09 00:53:48,597:INFO: Epoch 11 out of 15
+2018-05-09 00:54:05,912:INFO: Accuracy 69.8136645962733 - F1 8.923884514435697
+2018-05-09 00:54:06,537:INFO: - new best score!
+2018-05-09 00:54:06,538:INFO: Epoch 12 out of 15
+2018-05-09 00:54:23,728:INFO: Accuracy 70.43478260869566 - F1 8.443271767810028
+2018-05-09 00:54:23,729:INFO: Epoch 13 out of 15
+2018-05-09 00:54:40,902:INFO: Accuracy 70.6832298136646 - F1 9.6
+2018-05-09 00:54:41,529:INFO: - new best score!
+2018-05-09 00:54:41,529:INFO: Epoch 14 out of 15
+2018-05-09 00:54:58,643:INFO: Accuracy 71.18012422360248 - F1 9.473684210526317
+2018-05-09 00:54:58,644:INFO: Epoch 15 out of 15
+2018-05-09 00:55:15,800:INFO: Accuracy 72.17391304347827 - F1 11.111111111111112
+2018-05-09 00:55:16,451:INFO: - new best score!
+2018-05-09 00:55:16,452:INFO: Reloading the latest trained model...
+2018-05-09 00:55:16,452:INFO: Restoring parameters from results/trde/model.weights/
+2018-05-09 00:55:16,824:INFO: Testing model over test set
+2018-05-09 00:55:18,491:INFO: Accuracy 63.831417624521066 - F1 10.515569167942827
+2018-05-09 09:05:38,216:INFO: WARNING: randomly initializing word vectors
+2018-05-09 09:05:43,294:INFO: Initializing tf session
+2018-05-09 09:05:46,689:INFO: Epoch 1 out of 15
+2018-05-09 09:05:53,892:INFO: Accuracy 59.87577639751552 - F1 0
+2018-05-09 09:05:54,565:INFO: - new best score!
+2018-05-09 09:05:54,565:INFO: Epoch 2 out of 15
+2018-05-09 09:05:59,146:INFO: Accuracy 73.91304347826086 - F1 20.481927710843376
+2018-05-09 09:05:59,760:INFO: - new best score!
+2018-05-09 09:05:59,760:INFO: Epoch 3 out of 15
+2018-05-09 09:06:04,434:INFO: Accuracy 83.1055900621118 - F1 40.0
+2018-05-09 09:06:05,065:INFO: - new best score!
+2018-05-09 09:06:05,065:INFO: Epoch 4 out of 15
+2018-05-09 09:06:09,684:INFO: Accuracy 87.32919254658385 - F1 51.13122171945701
+2018-05-09 09:06:10,270:INFO: - new best score!
+2018-05-09 09:06:10,270:INFO: Epoch 5 out of 15
+2018-05-09 09:06:14,849:INFO: Accuracy 87.0807453416149 - F1 48.57768052516411
+2018-05-09 09:06:14,849:INFO: Epoch 6 out of 15
+2018-05-09 09:06:19,467:INFO: Accuracy 88.57142857142857 - F1 52.11581291759466
+2018-05-09 09:06:20,081:INFO: - new best score!
+2018-05-09 09:06:20,081:INFO: Epoch 7 out of 15
+2018-05-09 09:06:24,658:INFO: Accuracy 88.07453416149067 - F1 50.97192224622029
+2018-05-09 09:06:24,660:INFO: Epoch 8 out of 15
+2018-05-09 09:06:29,283:INFO: Accuracy 88.81987577639751 - F1 54.93562231759657
+2018-05-09 09:06:29,893:INFO: - new best score!
+2018-05-09 09:06:29,894:INFO: Epoch 9 out of 15
+2018-05-09 09:06:34,506:INFO: Accuracy 88.19875776397515 - F1 53.276955602537
+2018-05-09 09:06:34,507:INFO: Epoch 10 out of 15
+2018-05-09 09:06:39,122:INFO: Accuracy 88.4472049689441 - F1 54.43037974683544
+2018-05-09 09:06:39,123:INFO: Epoch 11 out of 15
+2018-05-09 09:06:43,730:INFO: Accuracy 88.19875776397515 - F1 53.36134453781513
+2018-05-09 09:06:43,731:INFO: - early stopping 3 epochs without improvement
+2018-05-09 09:06:43,731:INFO: Reloading the latest trained model...
+2018-05-09 09:06:43,731:INFO: Restoring parameters from results/trde/model.weights/
+2018-05-09 09:06:44,107:INFO: Testing model over test set
+2018-05-09 09:06:45,901:INFO: Accuracy 88.6845466155811 - F1 54.48275862068965
+2018-05-09 09:07:01,796:INFO: WARNING: randomly initializing word vectors
+2018-05-09 09:07:03,984:INFO: Initializing tf session
+2018-05-09 09:07:04,748:INFO: Epoch 1 out of 15
+2018-05-09 09:07:16,073:INFO: Accuracy 59.25465838509317 - F1 0
+2018-05-09 09:07:16,739:INFO: - new best score!
+2018-05-09 09:07:16,739:INFO: Epoch 2 out of 15
+2018-05-09 09:07:25,795:INFO: Accuracy 70.31055900621118 - F1 14.19753086419753
+2018-05-09 09:07:26,418:INFO: - new best score!
+2018-05-09 09:07:26,418:INFO: Epoch 3 out of 15
+2018-05-09 09:07:35,359:INFO: Accuracy 80.4968944099379 - F1 29.081632653061224
+2018-05-09 09:07:35,960:INFO: - new best score!
+2018-05-09 09:07:35,960:INFO: Epoch 4 out of 15
+2018-05-09 09:07:45,069:INFO: Accuracy 85.46583850931677 - F1 43.559718969555036
+2018-05-09 09:07:45,692:INFO: - new best score!
+2018-05-09 09:07:45,692:INFO: Epoch 5 out of 15
+2018-05-09 09:07:54,734:INFO: Accuracy 87.20496894409938 - F1 50.56947608200455
+2018-05-09 09:07:55,345:INFO: - new best score!
+2018-05-09 09:07:55,345:INFO: Epoch 6 out of 15
+2018-05-09 09:08:04,413:INFO: Accuracy 89.19254658385093 - F1 55.125284738041
+2018-05-09 09:08:05,016:INFO: - new best score!
+2018-05-09 09:08:05,017:INFO: Epoch 7 out of 15
+2018-05-09 09:08:13,989:INFO: Accuracy 89.3167701863354 - F1 55.90909090909091
+2018-05-09 09:08:14,602:INFO: - new best score!
+2018-05-09 09:08:14,602:INFO: Epoch 8 out of 15
+2018-05-09 09:08:23,596:INFO: Accuracy 89.56521739130436 - F1 54.794520547945204
+2018-05-09 09:08:23,597:INFO: Epoch 9 out of 15
+2018-05-09 09:08:32,703:INFO: Accuracy 89.68944099378882 - F1 55.172413793103445
+2018-05-09 09:08:32,703:INFO: Epoch 10 out of 15
+2018-05-09 09:08:41,734:INFO: Accuracy 89.56521739130436 - F1 54.25287356321839
+2018-05-09 09:08:41,735:INFO: - early stopping 3 epochs without improvement
+2018-05-09 09:08:41,735:INFO: Reloading the latest trained model...
+2018-05-09 09:08:41,735:INFO: Restoring parameters from results/trde/model.weights/
+2018-05-09 09:08:42,118:INFO: Testing model over test set
+2018-05-09 09:08:43,971:INFO: Accuracy 88.17369093231162 - F1 51.16039195461579
+2018-05-09 09:08:55,500:INFO: WARNING: randomly initializing word vectors
+2018-05-09 09:08:57,713:INFO: Initializing tf session
+2018-05-09 09:08:58,493:INFO: Epoch 1 out of 15
+2018-05-09 09:09:14,140:INFO: Accuracy 56.27329192546584 - F1 0
+2018-05-09 09:09:14,767:INFO: - new best score!
+2018-05-09 09:09:14,767:INFO: Epoch 2 out of 15
+2018-05-09 09:09:28,110:INFO: Accuracy 59.62732919254658 - F1 0
+2018-05-09 09:09:28,724:INFO: - new best score!
+2018-05-09 09:09:28,725:INFO: Epoch 3 out of 15
+2018-05-09 09:09:42,033:INFO: Accuracy 66.08695652173913 - F1 6.430868167202572
+2018-05-09 09:09:42,638:INFO: - new best score!
+2018-05-09 09:09:42,638:INFO: Epoch 4 out of 15
+2018-05-09 09:09:55,921:INFO: Accuracy 74.16149068322981 - F1 15.954415954415953
+2018-05-09 09:09:56,540:INFO: - new best score!
+2018-05-09 09:09:56,540:INFO: Epoch 5 out of 15
+2018-05-09 09:10:09,808:INFO: Accuracy 77.63975155279503 - F1 23.936170212765962
+2018-05-09 09:10:10,439:INFO: - new best score!
+2018-05-09 09:10:10,439:INFO: Epoch 6 out of 15
+2018-05-09 09:10:23,861:INFO: Accuracy 81.36645962732919 - F1 27.431421446384043
+2018-05-09 09:10:24,488:INFO: - new best score!
+2018-05-09 09:10:24,488:INFO: Epoch 7 out of 15
+2018-05-09 09:10:37,779:INFO: Accuracy 83.72670807453416 - F1 35.64356435643564
+2018-05-09 09:10:38,388:INFO: - new best score!
+2018-05-09 09:10:38,388:INFO: Epoch 8 out of 15
+2018-05-09 09:10:51,625:INFO: Accuracy 85.34161490683229 - F1 40.66193853427896
+2018-05-09 09:10:52,246:INFO: - new best score!
+2018-05-09 09:10:52,247:INFO: Epoch 9 out of 15
+2018-05-09 09:11:05,561:INFO: Accuracy 86.08695652173914 - F1 42.15456674473068
+2018-05-09 09:11:06,190:INFO: - new best score!
+2018-05-09 09:11:06,191:INFO: Epoch 10 out of 15
+2018-05-09 09:11:19,489:INFO: Accuracy 86.83229813664596 - F1 45.90163934426229
+2018-05-09 09:11:20,121:INFO: - new best score!
+2018-05-09 09:11:20,121:INFO: Epoch 11 out of 15
+2018-05-09 09:11:33,456:INFO: Accuracy 87.45341614906832 - F1 47.08624708624709
+2018-05-09 09:11:34,065:INFO: - new best score!
+2018-05-09 09:11:34,065:INFO: Epoch 12 out of 15
+2018-05-09 09:11:47,314:INFO: Accuracy 87.45341614906832 - F1 45.794392523364486
+2018-05-09 09:11:47,315:INFO: Epoch 13 out of 15
+2018-05-09 09:12:00,643:INFO: Accuracy 87.95031055900621 - F1 47.16981132075472
+2018-05-09 09:12:01,269:INFO: - new best score!
+2018-05-09 09:12:01,269:INFO: Epoch 14 out of 15
+2018-05-09 09:12:14,666:INFO: Accuracy 87.95031055900621 - F1 47.05882352941176
+2018-05-09 09:12:14,667:INFO: Epoch 15 out of 15
+2018-05-09 09:12:27,966:INFO: Accuracy 88.69565217391305 - F1 52.459016393442624
+2018-05-09 09:12:28,599:INFO: - new best score!
+2018-05-09 09:12:28,600:INFO: Reloading the latest trained model...
+2018-05-09 09:12:28,600:INFO: Restoring parameters from results/trde/model.weights/
+2018-05-09 09:12:28,966:INFO: Testing model over test set
+2018-05-09 09:12:30,729:INFO: Accuracy 86.15581098339719 - F1 42.98780487804878
+2018-05-09 09:12:38,038:INFO: WARNING: randomly initializing word vectors
+2018-05-09 09:12:40,311:INFO: Initializing tf session
+2018-05-09 09:12:41,055:INFO: Epoch 1 out of 15
+2018-05-09 09:13:01,023:INFO: Accuracy 53.04347826086957 - F1 3.0769230769230775
+2018-05-09 09:13:01,703:INFO: - new best score!
+2018-05-09 09:13:01,703:INFO: Epoch 2 out of 15
+2018-05-09 09:13:19,415:INFO: Accuracy 56.52173913043478 - F1 0.6535947712418302
+2018-05-09 09:13:19,416:INFO: Epoch 3 out of 15
+2018-05-09 09:13:37,194:INFO: Accuracy 59.130434782608695 - F1 0.6849315068493153
+2018-05-09 09:13:37,195:INFO: Epoch 4 out of 15
+                                                                                                                                2018-05-09 09:13:54,867:INFO: Accuracy 59.378881987577635 - F1 0.6734006734006734
+2018-05-09 09:13:54,868:INFO: - early stopping 3 epochs without improvement
+2018-05-09 09:13:54,868:INFO: Reloading the latest trained model...
+2018-05-09 09:13:54,869:INFO: Restoring parameters from results/trde/model.weights/
+2018-05-09 09:13:55,258:INFO: Testing model over test set
+2018-05-09 09:13:57,131:INFO: Accuracy 40.689655172413794 - F1 1.2310606060606062
+2018-05-09 09:31:05,674:INFO: WARNING: randomly initializing word vectors
+2018-05-09 09:31:10,893:INFO: Initializing tf session
+2018-05-09 09:31:14,238:INFO: Epoch 1 out of 15
+2018-05-09 09:31:21,293:INFO: Accuracy 60.372670807453424 - F1 0.6920415224913495
+2018-05-09 09:31:21,977:INFO: - new best score!
+2018-05-09 09:31:21,977:INFO: Epoch 2 out of 15
+2018-05-09 09:31:26,429:INFO: Accuracy 78.50931677018633 - F1 28.72628726287263
+2018-05-09 09:31:27,044:INFO: - new best score!
+2018-05-09 09:31:27,044:INFO: Epoch 3 out of 15
+2018-05-09 09:31:31,537:INFO: Accuracy 86.58385093167702 - F1 44.761904761904766
+2018-05-09 09:31:32,155:INFO: - new best score!
+2018-05-09 09:31:32,155:INFO: Epoch 4 out of 15
+2018-05-09 09:31:36,667:INFO: Accuracy 87.20496894409938 - F1 47.945205479452056
+2018-05-09 09:31:37,281:INFO: - new best score!
+2018-05-09 09:31:37,281:INFO: Epoch 5 out of 15
+2018-05-09 09:31:41,754:INFO: Accuracy 87.5776397515528 - F1 47.51131221719457
+2018-05-09 09:31:41,755:INFO: Epoch 6 out of 15
+2018-05-09 09:31:46,240:INFO: Accuracy 87.95031055900621 - F1 47.472527472527474
+2018-05-09 09:31:46,241:INFO: Epoch 7 out of 15
+2018-05-09 09:31:50,658:INFO: Accuracy 88.07453416149067 - F1 48.15618221258135
+2018-05-09 09:31:51,273:INFO: - new best score!
+2018-05-09 09:31:51,273:INFO: Epoch 8 out of 15
+2018-05-09 09:31:55,744:INFO: Accuracy 88.32298136645963 - F1 50.0
+2018-05-09 09:31:56,358:INFO: - new best score!
+2018-05-09 09:31:56,358:INFO: Epoch 9 out of 15
+2018-05-09 09:32:00,808:INFO: Accuracy 88.69565217391305 - F1 51.50214592274678
+2018-05-09 09:32:01,396:INFO: - new best score!
+2018-05-09 09:32:01,396:INFO: Epoch 10 out of 15
+2018-05-09 09:32:05,931:INFO: Accuracy 87.70186335403727 - F1 49.79253112033195
+2018-05-09 09:32:05,931:INFO: Epoch 11 out of 15
+2018-05-09 09:32:10,356:INFO: Accuracy 88.81987577639751 - F1 52.85412262156448
+2018-05-09 09:32:10,962:INFO: - new best score!
+2018-05-09 09:32:10,962:INFO: Epoch 12 out of 15
+2018-05-09 09:32:15,409:INFO: Accuracy 88.4472049689441 - F1 53.526970954356834
+2018-05-09 09:32:16,016:INFO: - new best score!
+2018-05-09 09:32:16,016:INFO: Epoch 13 out of 15
+2018-05-09 09:32:20,440:INFO: Accuracy 88.94409937888199 - F1 54.43037974683544
+2018-05-09 09:32:21,036:INFO: - new best score!
+2018-05-09 09:32:21,036:INFO: Epoch 14 out of 15
+2018-05-09 09:32:25,513:INFO: Accuracy 87.82608695652175 - F1 51.345755693581786
+2018-05-09 09:32:25,513:INFO: Epoch 15 out of 15
+2018-05-09 09:32:30,000:INFO: Accuracy 89.06832298136645 - F1 54.66101694915253
+2018-05-09 09:32:30,616:INFO: - new best score!
+2018-05-09 09:32:30,616:INFO: Reloading the latest trained model...
+2018-05-09 09:32:30,617:INFO: Restoring parameters from results/trde/model.weights/
+2018-05-09 09:32:30,993:INFO: Testing model over test set
+2018-05-09 09:32:34,909:INFO: Accuracy 90.80459770114942 - F1 62.23111555777891
+2018-05-09 09:32:50,843:INFO: WARNING: randomly initializing word vectors
+2018-05-09 09:32:53,020:INFO: Initializing tf session
+2018-05-09 09:32:53,684:INFO: Epoch 1 out of 15
+2018-05-09 09:33:04,853:INFO: Accuracy 59.25465838509317 - F1 3.021148036253777
+2018-05-09 09:33:05,517:INFO: - new best score!
+2018-05-09 09:33:05,518:INFO: Epoch 2 out of 15
+2018-05-09 09:33:14,251:INFO: Accuracy 66.08695652173913 - F1 8.021390374331549
+2018-05-09 09:33:14,874:INFO: - new best score!
+2018-05-09 09:33:14,874:INFO: Epoch 3 out of 15
+2018-05-09 09:33:23,740:INFO: Accuracy 70.06211180124224 - F1 14.93975903614458
+2018-05-09 09:33:24,370:INFO: - new best score!
+2018-05-09 09:33:24,370:INFO: Epoch 4 out of 15
+2018-05-09 09:33:33,283:INFO: Accuracy 76.3975155279503 - F1 27.555555555555557
+2018-05-09 09:33:33,888:INFO: - new best score!
+2018-05-09 09:33:33,888:INFO: Epoch 5 out of 15
+2018-05-09 09:33:42,693:INFO: Accuracy 80.62111801242236 - F1 33.542976939203356
+2018-05-09 09:33:43,311:INFO: - new best score!
+2018-05-09 09:33:43,311:INFO: Epoch 6 out of 15
+2018-05-09 09:33:52,211:INFO: Accuracy 83.35403726708076 - F1 36.324786324786324
+2018-05-09 09:33:52,820:INFO: - new best score!
+2018-05-09 09:33:52,821:INFO: Epoch 7 out of 15
+2018-05-09 09:34:01,498:INFO: Accuracy 84.96894409937889 - F1 41.484716157205234
+2018-05-09 09:34:02,114:INFO: - new best score!
+2018-05-09 09:34:02,114:INFO: Epoch 8 out of 15
+2018-05-09 09:34:10,929:INFO: Accuracy 85.71428571428571 - F1 42.572062084257205
+2018-05-09 09:34:11,548:INFO: - new best score!
+2018-05-09 09:34:11,548:INFO: Epoch 9 out of 15
+2018-05-09 09:34:20,322:INFO: Accuracy 85.83850931677019 - F1 43.66812227074235
+2018-05-09 09:34:20,943:INFO: - new best score!
+2018-05-09 09:34:20,943:INFO: Epoch 10 out of 15
+2018-05-09 09:34:29,740:INFO: Accuracy 87.20496894409938 - F1 47.45011086474501
+2018-05-09 09:34:30,347:INFO: - new best score!
+2018-05-09 09:34:30,347:INFO: Epoch 11 out of 15
+2018-05-09 09:34:39,158:INFO: Accuracy 87.70186335403727 - F1 49.775784753363226
+2018-05-09 09:34:39,777:INFO: - new best score!
+2018-05-09 09:34:39,778:INFO: Epoch 12 out of 15
+2018-05-09 09:34:48,588:INFO: Accuracy 88.4472049689441 - F1 52.03619909502263
+2018-05-09 09:34:49,206:INFO: - new best score!
+2018-05-09 09:34:49,207:INFO: Epoch 13 out of 15
+2018-05-09 09:34:58,131:INFO: Accuracy 88.69565217391305 - F1 52.370203160270876
+2018-05-09 09:34:58,760:INFO: - new best score!
+2018-05-09 09:34:58,760:INFO: Epoch 14 out of 15
+2018-05-09 09:35:07,582:INFO: Accuracy 88.4472049689441 - F1 51.0158013544018
+2018-05-09 09:35:07,582:INFO: Epoch 15 out of 15
+2018-05-09 09:35:16,382:INFO: Accuracy 88.94409937888199 - F1 53.06122448979592
+2018-05-09 09:35:16,996:INFO: - new best score!
+2018-05-09 09:35:16,996:INFO: Reloading the latest trained model...
+2018-05-09 09:35:16,996:INFO: Restoring parameters from results/trde/model.weights/
+2018-05-09 09:35:17,372:INFO: Testing model over test set
+2018-05-09 09:35:19,196:INFO: Accuracy 87.10089399744572 - F1 44.71505114466634
+2018-05-09 09:35:30,679:INFO: WARNING: randomly initializing word vectors
+2018-05-09 09:35:33,058:INFO: Initializing tf session
+2018-05-09 09:35:33,703:INFO: Epoch 1 out of 15
+2018-05-09 09:35:49,028:INFO: Accuracy 56.27329192546584 - F1 0
+2018-05-09 09:35:49,658:INFO: - new best score!
+2018-05-09 09:35:49,658:INFO: Epoch 2 out of 15
+2018-05-09 09:36:02,528:INFO: Accuracy 57.018633540372676 - F1 0
+2018-05-09 09:36:03,132:INFO: - new best score!
+2018-05-09 09:36:03,133:INFO: Epoch 3 out of 15
+2018-05-09 09:36:16,063:INFO: Accuracy 58.63354037267081 - F1 0
+2018-05-09 09:36:16,690:INFO: - new best score!
+2018-05-09 09:36:16,690:INFO: Epoch 4 out of 15
+2018-05-09 09:36:29,773:INFO: Accuracy 59.130434782608695 - F1 0
+2018-05-09 09:36:30,407:INFO: - new best score!
+2018-05-09 09:36:30,407:INFO: Epoch 5 out of 15
+2018-05-09 09:36:43,384:INFO: Accuracy 61.36645962732919 - F1 3.4246575342465753
+2018-05-09 09:36:43,989:INFO: - new best score!
+2018-05-09 09:36:43,989:INFO: Epoch 6 out of 15
+2018-05-09 09:36:56,787:INFO: Accuracy 62.2360248447205 - F1 3.389830508474577
+2018-05-09 09:36:56,788:INFO: Epoch 7 out of 15
+2018-05-09 09:37:09,833:INFO: Accuracy 63.35403726708074 - F1 3.3444816053511706
+2018-05-09 09:37:09,834:INFO: Epoch 8 out of 15
+2018-05-09 09:37:22,757:INFO: Accuracy 64.72049689440993 - F1 3.8961038961038965
+2018-05-09 09:37:23,403:INFO: - new best score!
+2018-05-09 09:37:23,403:INFO: Epoch 9 out of 15
+2018-05-09 09:37:36,261:INFO: Accuracy 65.96273291925466 - F1 6.875000000000001
+2018-05-09 09:37:36,874:INFO: - new best score!
+2018-05-09 09:37:36,875:INFO: Epoch 10 out of 15
+2018-05-09 09:37:49,869:INFO: Accuracy 67.20496894409938 - F1 10.303030303030305
+2018-05-09 09:37:50,492:INFO: - new best score!
+2018-05-09 09:37:50,492:INFO: Epoch 11 out of 15
+2018-05-09 09:38:03,319:INFO: Accuracy 70.06211180124224 - F1 11.869436201780417
+2018-05-09 09:38:03,931:INFO: - new best score!
+2018-05-09 09:38:03,931:INFO: Epoch 12 out of 15
+2018-05-09 09:38:16,904:INFO: Accuracy 70.80745341614907 - F1 12.316715542521996
+2018-05-09 09:38:17,525:INFO: - new best score!
+2018-05-09 09:38:17,525:INFO: Epoch 13 out of 15
+2018-05-09 09:38:30,670:INFO: Accuracy 71.92546583850931 - F1 12.389380530973451
+2018-05-09 09:38:31,277:INFO: - new best score!
+2018-05-09 09:38:31,277:INFO: Epoch 14 out of 15
+2018-05-09 09:38:44,188:INFO: Accuracy 72.29813664596273 - F1 12.90322580645161
+2018-05-09 09:38:44,813:INFO: - new best score!
+2018-05-09 09:38:44,814:INFO: Epoch 15 out of 15
+2018-05-09 09:38:57,915:INFO: Accuracy 73.29192546583852 - F1 12.941176470588237
+2018-05-09 09:38:58,530:INFO: - new best score!
+2018-05-09 09:38:58,531:INFO: Reloading the latest trained model...
+2018-05-09 09:38:58,531:INFO: Restoring parameters from results/trde/model.weights/
+2018-05-09 09:38:58,903:INFO: Testing model over test set
+2018-05-09 09:39:00,746:INFO: Accuracy 62.55427841634739 - F1 12.878300064391498
+2018-05-09 09:39:07,973:INFO: WARNING: randomly initializing word vectors
+2018-05-09 09:39:10,403:INFO: Initializing tf session
+2018-05-09 09:39:11,059:INFO: Epoch 1 out of 15
+2018-05-09 09:39:33,682:INFO: Accuracy 56.27329192546584 - F1 1.3377926421404684
+2018-05-09 09:39:34,302:INFO: - new best score!
+2018-05-09 09:39:34,303:INFO: Epoch 2 out of 15
+2018-05-09 09:39:54,642:INFO: Accuracy 56.27329192546584 - F1 0
+2018-05-09 09:39:54,642:INFO: Epoch 3 out of 15
+2018-05-09 09:40:14,747:INFO: Accuracy 56.27329192546584 - F1 0
+2018-05-09 09:40:14,747:INFO: Epoch 4 out of 15
+2018-05-09 09:40:34,739:INFO: Accuracy 56.27329192546584 - F1 0
+2018-05-09 09:40:34,740:INFO: - early stopping 3 epochs without improvement
+2018-05-09 09:40:34,740:INFO: Reloading the latest trained model...
+2018-05-09 09:40:34,740:INFO: Restoring parameters from results/trde/model.weights/
+2018-05-09 09:40:35,126:INFO: Testing model over test set
+2018-05-09 09:40:36,938:INFO: Accuracy 44.112388250319285 - F1 0.425531914893617
+2018-05-09 09:45:38,230:INFO: WARNING: randomly initializing word vectors
+2018-05-09 09:45:43,452:INFO: Initializing tf session
+2018-05-09 09:45:46,959:INFO: Epoch 1 out of 15
+2018-05-09 09:46:10,231:INFO: Accuracy 88.32298136645963 - F1 49.77777777777778
+2018-05-09 09:46:10,910:INFO: - new best score!
+2018-05-09 09:46:10,911:INFO: Epoch 2 out of 15
+2018-05-09 09:46:31,434:INFO: Accuracy 89.56521739130436 - F1 54.337899543378995
+2018-05-09 09:46:32,271:INFO: - new best score!
+2018-05-09 09:46:32,271:INFO: Epoch 3 out of 15
+2018-05-09 09:46:52,887:INFO: Accuracy 90.6832298136646 - F1 61.333333333333314
+2018-05-09 09:46:53,502:INFO: - new best score!
+2018-05-09 09:46:53,502:INFO: Epoch 4 out of 15
+2018-05-09 09:47:13,898:INFO: Accuracy 92.29813664596274 - F1 68.66952789699572
+2018-05-09 09:47:14,526:INFO: - new best score!
+2018-05-09 09:47:14,526:INFO: Epoch 5 out of 15
+2018-05-09 09:47:34,998:INFO: Accuracy 92.04968944099379 - F1 69.06779661016948
+2018-05-09 09:47:35,630:INFO: - new best score!
+2018-05-09 09:47:35,631:INFO: Epoch 6 out of 15
+2018-05-09 09:47:55,992:INFO: Accuracy 92.79503105590062 - F1 72.22222222222221
+2018-05-09 09:47:56,613:INFO: - new best score!
+2018-05-09 09:47:56,614:INFO: Epoch 7 out of 15
+2018-05-09 09:48:17,127:INFO: Accuracy 92.17391304347827 - F1 71.18644067796612
+2018-05-09 09:48:17,128:INFO: Epoch 8 out of 15
+2018-05-09 09:48:37,603:INFO: Accuracy 92.17391304347827 - F1 70.33898305084747
+2018-05-09 09:48:37,604:INFO: Epoch 9 out of 15
+2018-05-09 09:48:58,046:INFO: Accuracy 91.92546583850931 - F1 69.62025316455697
+2018-05-09 09:48:58,047:INFO: - early stopping 3 epochs without improvement
+2018-05-09 09:57:03,051:INFO: WARNING: randomly initializing word vectors
+2018-05-09 09:57:08,237:INFO: Initializing tf session
+2018-05-09 09:57:11,671:INFO: Epoch 1 out of 15
+2018-05-09 09:57:34,824:INFO: Accuracy 85.96273291925466 - F1 44.161358811040344
+2018-05-09 09:57:35,518:INFO: - new best score!
+2018-05-09 09:57:35,518:INFO: Epoch 2 out of 15
+2018-05-09 09:57:56,062:INFO: Accuracy 88.32298136645963 - F1 53.42163355408388
+2018-05-09 09:57:56,674:INFO: - new best score!
+2018-05-09 09:57:56,674:INFO: Epoch 3 out of 15
+2018-05-09 09:58:17,237:INFO: Accuracy 91.18012422360249 - F1 62.83185840707964
+2018-05-09 09:58:17,873:INFO: - new best score!
+2018-05-09 09:58:17,874:INFO: Epoch 4 out of 15
+2018-05-09 09:58:38,289:INFO: Accuracy 92.04968944099379 - F1 66.95652173913044
+2018-05-09 09:58:38,920:INFO: - new best score!
+2018-05-09 09:58:38,920:INFO: Epoch 5 out of 15
