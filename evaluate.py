@@ -80,8 +80,8 @@ def main():
                          config.processing_tag, config.max_iter)
 
     # evaluate and interact
-    #model.evaluate(test)
-    interactive_shell(model)
+    model.evaluate(test,"test")
+    #interactive_shell(model)
 
 
 if __name__ == "__main__":

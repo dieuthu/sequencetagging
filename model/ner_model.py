@@ -2,7 +2,7 @@ import pdb
 import numpy as np
 import os
 import tensorflow as tf
-
+import math
 
 from .data_utils import minibatches, pad_sequences, get_chunks
 from .general_utils import Progbar
@@ -16,8 +16,9 @@ class NERModel(BaseModel):
         super(NERModel, self).__init__(config)
         self.idx_to_tag = {idx: tag for tag, idx in
                            self.config.vocab_tags.items()}
-
-
+        self.tag_to_idx = {tag: idx for tag, idx in
+                            self.config.vocab_tags.items()}
+        
     def add_placeholders(self):
         """Define placeholders = entries to computational graph"""
         # shape = (batch size, max length of sentence in batch)
@@ -246,20 +247,28 @@ class NERModel(BaseModel):
             # get tag scores and transition params of CRF
             viterbi_sequences = []
             scores = []
+
             logits, trans_params = self.sess.run(
                     [self.logits, self.trans_params], feed_dict=fd)
 
+            #logits = sigmoid_v(logits)
+            #trans_params = sigmoid_v(trans_params)
             # iterate over the sentences because no batching in vitervi_decode
             for logit, sequence_length in zip(logits, sequence_lengths):
                 logit = logit[:sequence_length] # keep only the valid steps
                 #print("Logit ", logit)
-
                 viterbi_seq, viterbi_score = tf.contrib.crf.viterbi_decode(
                         logit, trans_params)
                 viterbi_sequences += [viterbi_seq]
                 #print('trans_params ', trans_params)
                 #print('Sequence ', viterbi_seq)
+                #print(sequence_length)
+                #print(len(viterbi_seq))
                 #print('Score ', viterbi_score)#Use to decide least-uncertainty
+                if self.config.active_strategy=="nus": 
+                    viterbi_score = float(viterbi_score/sequence_length)
+                else:
+                    viterbi_score = active_strategy(logit, trans_params, self.config.active_strategy, self.tag_to_idx)
                 scores.append(viterbi_score)
             return viterbi_sequences, sequence_lengths, scores
 
@@ -311,7 +320,7 @@ class NERModel(BaseModel):
         return metrics["f1"]
 
 
-    def run_evaluate(self, test):
+    def run_evaluate(self, test, mode="train"):
         """Evaluates performance on test set
 
         Args:
@@ -323,7 +332,9 @@ class NERModel(BaseModel):
         """
         accs = []
         l = []
+        #correct_preds_ne, total_correct_ne, total_preds_ne = 0.,0.,0.
 
+        s= ""
         correct_preds, total_correct, total_preds = 0., 0., 0.
         for words, labels in minibatches(test, self.config.batch_size):
             #print(words,labels)
@@ -331,6 +342,14 @@ class NERModel(BaseModel):
             #pdb.set_trace()
             #l.append((list(words),prob)) #list of words, list of scores corresponding
             #l += prob
+            #print('labels_pred ', labels_pred)
+            if 'test' in mode:
+                for lab, pred in zip(labels, labels_pred):
+                    #print('lab',lab)
+                    #print('pred',pred)
+                    for i,j in zip(lab,pred):
+                        s+=self.idx_to_tag[i] + '\t' + self.idx_to_tag[j] + '\n'
+                    s+='\n'
             for lab, lab_pred, length in zip(labels, labels_pred,
                                              sequence_lengths):
                 lab      = lab[:length]
@@ -343,14 +362,19 @@ class NERModel(BaseModel):
                 correct_preds += len(lab_chunks & lab_pred_chunks)
                 total_preds   += len(lab_pred_chunks)
                 total_correct += len(lab_chunks)
+
         #print("Total Preds ", total_preds)
-        #print("Correct Preds ", correct_preds)
-        
+        #print("Total correct ", total_correct)
+        #print("Correct preds ", correct_preds)
+                
         p   = correct_preds / total_preds if correct_preds > 0 else 0
         r   = correct_preds / total_correct if correct_preds > 0 else 0
         f1  = 2 * p * r / (p + r) if correct_preds > 0 else 0
         acc = np.mean(accs)
-
+        if "test" in mode:
+            f = open(self.config.file_out + "_" + mode,'w')
+            f.write(s)
+            f.close()
         #Sort l to get most/least uncertain
         #l2 = sorted(l)
         #mu = []
@@ -392,3 +416,81 @@ class NERModel(BaseModel):
         preds = [self.idx_to_tag[idx] for idx in list(pred_ids[0])]
         return (words_o, scores)
         #return preds
+
+def active_strategy(score, transition_params, active_strategy, tag_to_idx):
+    """
+    Args: output of CRF
+    score: A [seq_len, num_tags] matrix of unary potentials.
+    transition_params: A [num_tags, num_tags] matrix of binary potentials.
+    """
+    if active_strategy=="cluster":
+        return score
+    trellis = np.zeros_like(score)
+    backpointers = np.zeros_like(score, dtype=np.int32)
+    trellis[0] = score[0]
+
+    for t in range(1, score.shape[0]):
+        v = np.expand_dims(trellis[t - 1], 1) + transition_params
+        trellis[t] = score[t] + np.max(v, 0)
+        backpointers[t] = np.argmax(v, 0)
+
+    viterbi = [np.argmax(trellis[-1])]
+    for bp in reversed(backpointers[1:]):
+        viterbi.append(bp[viterbi[-1]])
+    viterbi.reverse()
+
+    score_final = np.max(trellis[-1]) #Score of sequences (higher = better)
+    if (active_strategy=='mg'):
+        top_scores = trellis[-1][np.argsort(trellis[-1])[-2:]]
+        margin = abs(top_scores[0]-top_scores[1])
+        score_final = margin
+
+    elif (active_strategy=='ne'):
+        #print("Calling ne strategy")
+        #print("score", score)
+        #tag_to_idx = {tag: indx for tag, indx in self.config.vocab_tags.items()}
+        ne = ['NE.AMBIG','NE.DE', 'NE.LANG3', 'NE.MIXED', 'NE.OTHER','NE.TR']
+        ne_idx = []
+        for i in tag_to_idx:
+            if i in ne:
+                ne_idx.append(tag_to_idx[i])
+        #print('ne_idx ', ne_idx) 
+        #print('score ', score)
+        #Get the highest score of NE
+        max_ne = []
+        #for i in ne_idx:
+        #     max_ne.append(np.max(score[:,i]))
+        score_final = 0
+        for i in viterbi:
+            if i in ne_idx:
+                score_final+=1 #give higher score to sequences that have more named entities
+        #score_final = np.max(max_ne)
+    
+    elif (active_strategy=='nemg'): #ne margin
+        ne_idx = tag_to_idx['NE.DE']
+        ne_de = tag_to_idx['DE']
+        margin = np.add(score[:,ne_idx],score[:,ne_de])
+        margin2 = abs(np.multiply(score[:,ne_idx],score[:,ne_de]))
+        margin = np.divide(margin, margin2)
+        sum_margin = np.sum(margin)
+        score_final = sum_margin
+
+    if (active_strategy=='entropy'):
+        #Find the highest prob for each token
+        ntoken = len(score)
+        ntags = len(score[0])
+        l = [] #max prob of each token
+        for i in range(0,ntoken):
+            l.append(np.max(score[i]))
+        ne_idx = tag_to_idx
+        #Compute entropy
+        score_final = 0.0
+        for i in range(0,ntoken):
+            score_final+=l[i]*np.log(l[i])
+        score_final = score_final/ntoken
+
+    return score_final
+
+def sigmoid(x):
+    return 1 / (1 + math.exp(-x))
+sigmoid_v = np.vectorize(sigmoid)

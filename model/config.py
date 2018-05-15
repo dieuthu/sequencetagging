@@ -1,6 +1,5 @@
 import os
 
-
 from .general_utils import get_logger
 from .data_utils import get_trimmed_glove_vectors, load_vocab, \
         get_processing_word
@@ -71,6 +70,9 @@ class Config():
     use_pretrained = False
 
     # dataset
+    #filename_dev = "data/nervie/dev"
+    #filename_test = "data/nervie/test"
+    #filename_train = "data/nervie/train"
     filename_dev = "data/trde/archive/trde.dev"
     filename_test = "data/trde/archive/trde.test"
     filename_train = "data/trde/archive/trde.train"
@@ -86,16 +88,16 @@ class Config():
 
     # training
     train_embeddings = False
-    nepochs          = 30
+    nepochs          = 2
     #nepochs = 3
     dropout          = 0.5
-    batch_size       = 5
+    batch_size       = 20
     #batch_size = 20
     lr_method        = "adam"
     lr               = 0.001
     lr_decay         = 0.9
     clip             = -1 # if negative, no clipping
-    nepoch_no_imprv  = 7
+    nepoch_no_imprv  = 3
 
     # model hyperparameters
     hidden_size_char = 100 # lstm on chars
@@ -107,5 +109,13 @@ class Config():
     
     
     #Active learning config
-    num_query = 20 #number of queries each round of active learning
+    num_query = 40 #number of queries each round of active learnin
+    #filename_pkl = "results/nervie/intermediate/trainselect"
     filename_pkl = "results/trde/intermediate/trainselect"
+    active_strategy = "cluster"
+    #us, nus (normalized uncertainty sampling), mg (margin), entropy, ne (focus on Named entity)
+    #nemg: german named entity with margin, cluster approach
+
+    #file_out = "results/nervie/files/out_" + str(num_query) + "query_" + active_strategy
+    file_out = "results/trde/files/out_" + str(num_query) + "query_" + active_strategy
+    mode = "train"
