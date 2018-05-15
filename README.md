@@ -1,28 +1,45 @@
-# Sequence tagging
+# Sequence tagging and active learning
 
-This repo implements a NER model using Tensorflow (LSTM + CRF + chars embeddings).
+This repo implements a sequence tagging model (bi-LSTM, word and character embeddings with CRF) and active learning.
 
 
 ## Task
 
-Given a sentence, give a tag to each word. A classical application is Named Entity Recognition (NER). Here is an example
+Given a sequence, the task is to assign a tag to each token in the sequence. Active learning algorithm is used to select the most informative
+samples to be labelled at each round, hence reduce the annotation effort.
+
+An example of a sequence tagging for code switching between German (DE) and Turkish (TR):
 
 ```
-John   lives in New   York
-B-PER  O     O  B-LOC I-LOC
+Ah DE                             
+ja DE                             
+Frauentausch DE                   
+habe DE                           
+ich DE                            
+früher DE                         
+immer DE                          
+geguckt DE                        
+:D OTHER                          
+Rush NE.LANG3                     
+Hour NE.LANG3                     
+bakıyordum TR                     
+gerade DE                         
+;D OTHER                          
 ```
 
 
-## Model
-
-Similar to [Lample et al.](https://arxiv.org/abs/1603.01360) and [Ma and Hovy](https://arxiv.org/pdf/1603.01354.pdf).
+## Sequence Tagging Model
 
 - concatenate final states of a bi-lstm on character embeddings to get a character-based representation of each word
-- concatenate this representation to a standard word vector representation (GloVe here)
+- concatenate this representation to a standard word vector representation
 - run a bi-lstm on each sentence to extract contextual representation of each word
 - decode with a linear chain CRF
 
 
+## Active Learning Model
+
+### Uncertainty sampling
+Using the score of the Viterbi sequence to decide most uncertain sequences
 
 ## Getting started
 
@@ -109,3 +126,6 @@ train_filename = "data/coNLL/eng/eng.train.iob"
 ## Reference:
 
 https://github.com/guillaumegenthial/sequence_tagging/
+[Lample et al.](https://arxiv.org/abs/1603.01360) 
+[Ma and Hovy](https://arxiv.org/pdf/1603.01354.pdf)
+
